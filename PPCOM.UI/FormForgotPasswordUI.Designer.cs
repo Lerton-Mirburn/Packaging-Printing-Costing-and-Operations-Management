@@ -1,6 +1,6 @@
 ﻿namespace LoginSystem
 {
-    partial class FormForgotPassword
+    partial class FormForgotPasswordUI
     {
         /// <summary>
         /// Required designer variable.

@@ -46,34 +46,34 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FormForgotPassword.cs">
+    <Compile Include="FormForgotPasswordUI.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormForgotPassword.Designer.cs">
-      <DependentUpon>FormForgotPassword.cs</DependentUpon>
+    <Compile Include="FormForgotPasswordUI.Designer.cs">
+      <DependentUpon>FormForgotPasswordUI.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormLogin.cs">
+    <Compile Include="FormLoginUI.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormLogin.Designer.cs">
-      <DependentUpon>FormLogin.cs</DependentUpon>
+    <Compile Include="FormLoginUI.Designer.cs">
+      <DependentUpon>FormLoginUI.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormRoleSelection.cs">
+    <Compile Include="FormRoleSelectionUI.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormRoleSelection.Designer.cs">
-      <DependentUpon>FormRoleSelection.cs</DependentUpon>
+    <Compile Include="FormRoleSelectionUI.Designer.cs">
+      <DependentUpon>FormRoleSelectionUI.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FormForgotPassword.resx">
-      <DependentUpon>FormForgotPassword.cs</DependentUpon>
+    <EmbeddedResource Include="FormForgotPasswordUI.resx">
+      <DependentUpon>FormForgotPasswordUI.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormLogin.resx">
-      <DependentUpon>FormLogin.cs</DependentUpon>
+    <EmbeddedResource Include="FormLoginUI.resx">
+      <DependentUpon>FormLoginUI.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormRoleSelection.resx">
-      <DependentUpon>FormRoleSelection.cs</DependentUpon>
+    <EmbeddedResource Include="FormRoleSelectionUI.resx">
+      <DependentUpon>FormRoleSelectionUI.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

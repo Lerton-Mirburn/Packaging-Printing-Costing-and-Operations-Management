@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace LoginSystem
 {
-    public partial class FormForgotPassword : Form
+    public partial class FormForgotPasswordUI : Form
     {
-        public FormForgotPassword()
+        public FormForgotPasswordUI()
         {
             InitializeComponent();
         }
