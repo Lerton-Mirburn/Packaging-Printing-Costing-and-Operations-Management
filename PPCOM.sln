@@ -1,17 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36221.1 d17.14
+VisualStudioVersion = 17.14.36221.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PPCOM.UI", "PPCOM.UI.csproj", "{875F7C92-41C0-41E2-B64D-041BB45DCF40}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PPCOM.Services", "..\PPCOM.Services\PPCOM.Services.csproj", "{193084E2-8F19-4909-BFF7-38C2815372DD}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PPCOM.Data", "..\PPCOM.Data\PPCOM.Data.csproj", "{89A82947-9B40-412F-A6F1-6F3EFFAA40A8}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PPCOM.Models", "..\PPCOM.Models\PPCOM.Models.csproj", "{069A4F32-D4E6-45C9-992A-009611CC4629}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PPCOM.UI", "..\..\OneDrive\Máy tính\software stuff\Packaging-Printing-Costing-and-Operations-Management-App\PPCOM.UI\PPCOM.UI.csproj", "{875F7C92-41C0-41E2-B64D-041BB45DCF40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PPCOM.Services", "..\..\OneDrive\Máy tính\software stuff\Packaging-Printing-Costing-and-Operations-Management-App\PPCOM.Services\PPCOM.Services.csproj", "{193084E2-8F19-4909-BFF7-38C2815372DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PPCOM.Models", "..\..\OneDrive\Máy tính\software stuff\Packaging-Printing-Costing-and-Operations-Management-App\PPCOM.Models\PPCOM.Models.csproj", "{069A4F32-D4E6-45C9-992A-009611CC4629}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PPCOM.Data", "..\..\OneDrive\Máy tính\software stuff\Packaging-Printing-Costing-and-Operations-Management-App\PPCOM.Data\PPCOM.Data.csproj", "{89A82947-9B40-412F-A6F1-6F3EFFAA40A8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,14 +27,14 @@ Global
 		{193084E2-8F19-4909-BFF7-38C2815372DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{193084E2-8F19-4909-BFF7-38C2815372DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{193084E2-8F19-4909-BFF7-38C2815372DD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{89A82947-9B40-412F-A6F1-6F3EFFAA40A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{89A82947-9B40-412F-A6F1-6F3EFFAA40A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{89A82947-9B40-412F-A6F1-6F3EFFAA40A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{89A82947-9B40-412F-A6F1-6F3EFFAA40A8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{069A4F32-D4E6-45C9-992A-009611CC4629}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{069A4F32-D4E6-45C9-992A-009611CC4629}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{069A4F32-D4E6-45C9-992A-009611CC4629}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{069A4F32-D4E6-45C9-992A-009611CC4629}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89A82947-9B40-412F-A6F1-6F3EFFAA40A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89A82947-9B40-412F-A6F1-6F3EFFAA40A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89A82947-9B40-412F-A6F1-6F3EFFAA40A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89A82947-9B40-412F-A6F1-6F3EFFAA40A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
