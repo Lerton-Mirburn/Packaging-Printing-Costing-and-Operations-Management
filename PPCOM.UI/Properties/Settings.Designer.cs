@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace PPCOM.Properties
+namespace LoginSystem.Properties
 {
 
 

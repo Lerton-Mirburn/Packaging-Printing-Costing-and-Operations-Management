@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace PPCOM
+namespace LoginSystem
 {
     internal static class Program
     {
@@ -16,7 +16,7 @@ namespace PPCOM
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new EmployeeManagementUI());
+            Application.Run(new FormRoleSelection());
         }
     }
 }
