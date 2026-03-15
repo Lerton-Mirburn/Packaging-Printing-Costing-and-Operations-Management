@@ -43,7 +43,7 @@ namespace PPCOM
 
         private void btnEmployee_Click(object sender, EventArgs e)
         {
-            //LoadPage(new EmployeeManagementControl());
+            LoadPage(new EmployeeControl());
         }
 
         private void btnCalculate_Click(object sender, EventArgs e)
