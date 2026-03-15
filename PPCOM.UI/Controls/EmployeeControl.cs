@@ -8,18 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace PPCOM
+namespace PPCOM.Controls
 {
-    public partial class otpUI : Form
+    public partial class EmployeeControl : UserControl
     {
-        public otpUI()
+        public EmployeeControl()
         {
             InitializeComponent();
-        }
-
-        private void textBox7_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

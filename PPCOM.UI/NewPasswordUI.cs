@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PPCOM
 {
-    public partial class Form3 : Form
+    public partial class NewPasswordUI : Form
     {
-        public Form3()
+        public NewPasswordUI()
         {
             InitializeComponent();
         }

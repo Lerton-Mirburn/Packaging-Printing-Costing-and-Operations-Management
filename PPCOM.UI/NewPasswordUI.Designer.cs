@@ -1,6 +1,6 @@
 ﻿namespace PPCOM
 {
-    partial class Form3
+    partial class NewPasswordUI
     {
         /// <summary>
         /// Required designer variable.

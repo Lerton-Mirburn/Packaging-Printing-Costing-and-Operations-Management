@@ -1,6 +1,6 @@
 ﻿namespace PPCOM
 {
-    partial class Form2
+    partial class otpUI
     {
         /// <summary>
         /// Required designer variable.
