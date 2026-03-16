@@ -171,6 +171,7 @@
             this.btnPay.TabIndex = 23;
             this.btnPay.Text = "Quản lý công nợ và Thanh toán ";
             this.btnPay.UseVisualStyleBackColor = true;
+            this.btnPay.Click += new System.EventHandler(this.btnPay_Click);
             // 
             // btnOrder
             // 
