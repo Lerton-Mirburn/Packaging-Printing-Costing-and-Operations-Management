@@ -144,6 +144,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\PPCOM.Data\PPCOM.Data.csproj">
+      <Project>{89a82947-9b40-412f-a6f1-6f3effaa40a8}</Project>
+      <Name>PPCOM.Data</Name>
+    </ProjectReference>
     <ProjectReference Include="..\PPCOM.Models\PPCOM.Models.csproj">
       <Project>{069a4f32-d4e6-45c9-992a-009611cc4629}</Project>
       <Name>PPCOM.Models</Name>

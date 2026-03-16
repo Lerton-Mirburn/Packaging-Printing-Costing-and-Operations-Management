@@ -6,12 +6,9 @@ using System.Threading.Tasks;
 
 namespace PPCOM.Models
 {
-    public class User
+    public class Role
     {
-        public int user_id { get; set; }
-        public string username { get; set; }
-        public string password { get; set; }
-        public string email { get; set; }
         public int role_id { get; set; }
+        public string role_name { get; set; }
     }
 }

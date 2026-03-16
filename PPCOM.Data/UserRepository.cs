@@ -13,7 +13,7 @@ namespace PPCOM.Data
 {
     public class UserRepository
     {
-         string connStr = "Server=(localdb)\\MSSQLLocalDB;Database=PPCOM;Trusted_Connection=True;";
+        string connStr = @"Server=(localdb)\MSSQLLocalDB;Database=PPCOM;Integrated Security=True;";
         public List<User> GetEmployees()
         {
             List<User> list = new List<User>();
@@ -22,7 +22,7 @@ namespace PPCOM.Data
             {
                 conn.Open();
 
-                string query = "SELECT * FROM User";
+                string query = "SELECT user_id, username, password, email, role_id FROM Users";
                 SqlCommand cmd = new SqlCommand(query, conn);
 
                 SqlDataReader reader = cmd.ExecuteReader();
@@ -32,9 +32,11 @@ namespace PPCOM.Data
                     list.Add(new User
                     {
                         user_id = (int)reader["user_id"],
-                        name = reader["name"].ToString(),
-                        position = reader["position"].ToString(),
-                        salary = (decimal)reader["salary"]
+                        username = reader["username"].ToString(),
+                        password = reader["password"].ToString(),
+                        email = reader["email"].ToString(),
+                        role_id = (int)reader["role_id"]
+
                     });
                 }
             }

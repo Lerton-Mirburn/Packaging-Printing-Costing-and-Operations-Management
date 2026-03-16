@@ -108,6 +108,6 @@ CREATE TABLE Payments (
     FOREIGN KEY (debt_id) REFERENCES Debts(debt_id)
 );
 INSERT INTO Roles
-VALUES (1,"Admin");
+VALUES ('Admin');
 INSERT INTO Users (username, password, email, role_id)
 VALUES ('admin', '123', 'admin@gmail.com', 1);
