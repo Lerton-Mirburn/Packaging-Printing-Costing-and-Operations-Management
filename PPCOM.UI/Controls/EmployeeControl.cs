@@ -15,7 +15,7 @@ namespace PPCOM.Controls
 {
     public partial class EmployeeControl : UserControl
     {
-        EmployeeService service = new EmployeeService();
+        UserService service = new UserService();
         public EmployeeControl()
         {
             InitializeComponent();

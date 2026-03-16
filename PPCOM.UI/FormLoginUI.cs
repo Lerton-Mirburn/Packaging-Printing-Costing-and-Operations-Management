@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PPCOM;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -7,6 +8,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+
+using PPCOM.Services;
 
 namespace LoginSystem
 {
@@ -28,11 +31,6 @@ namespace LoginSystem
         }
 
         private void label6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void BtnAdmin_Click(object sender, EventArgs e)
         {
 
         }
@@ -85,6 +83,26 @@ namespace LoginSystem
         private void label9_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void BtnSignin_Click(object sender, EventArgs e)
+        {
+            //string username = txtUser.Text;
+            //string password = txtPassword.Text;
+
+
+            //UserService service = new UserService();
+
+            //if (service.Login(username, password))
+            //{
+            //    MainForm main = new MainForm();
+            //    main.Show();
+            //    this.Hide();
+            //}
+            //else
+            //{
+            //    MessageBox.Show("Wrong username or password");
+            //}
         }
     }
 }

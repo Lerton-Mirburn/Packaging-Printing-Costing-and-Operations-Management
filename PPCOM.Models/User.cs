@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace PPCOM.Models
 {
-    public class Employee
+    public class User
     {
-        public int employee_id { get; set; }
+        public int user_id { get; set; }
         public string name { get; set; }
         public string position { get; set; }
         public decimal salary { get; set; }

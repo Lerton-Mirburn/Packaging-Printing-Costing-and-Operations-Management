@@ -10,11 +10,11 @@ using PPCOM.Models;
 
 namespace PPCOM.Services
 {
-    public class EmployeeService
+    public class UserService
     {
-        private EmployeeRepository repo = new EmployeeRepository();
+        private UserRepository repo = new UserRepository();
 
-        public List<Employee> GetEmployees()
+        public List<User> GetEmployees()
         {
             return repo.GetEmployees();
         }

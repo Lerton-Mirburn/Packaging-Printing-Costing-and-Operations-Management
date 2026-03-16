@@ -11,27 +11,27 @@ using System.Threading.Tasks;
 
 namespace PPCOM.Data
 {
-    public class EmployeeRepository
+    public class UserRepository
     {
          string connStr = "Server=(localdb)\\MSSQLLocalDB;Database=PPCOM;Trusted_Connection=True;";
-        public List<Employee> GetEmployees()
+        public List<User> GetEmployees()
         {
-            List<Employee> list = new List<Employee>();
+            List<User> list = new List<User>();
 
             using (SqlConnection conn = new SqlConnection(connStr))
             {
                 conn.Open();
 
-                string query = "SELECT * FROM Employees";
+                string query = "SELECT * FROM User";
                 SqlCommand cmd = new SqlCommand(query, conn);
 
                 SqlDataReader reader = cmd.ExecuteReader();
 
                 while (reader.Read())
                 {
-                    list.Add(new Employee
+                    list.Add(new User
                     {
-                        employee_id = (int)reader["employee_id"],
+                        user_id = (int)reader["user_id"],
                         name = reader["name"].ToString(),
                         position = reader["position"].ToString(),
                         salary = (decimal)reader["salary"]
@@ -41,5 +41,7 @@ namespace PPCOM.Data
 
             return list;
         }
+
+
     }
 }
