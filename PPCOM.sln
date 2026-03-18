@@ -11,15 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PPCOM.Models", "PPCOM.Model
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PPCOM.Data", "PPCOM.Data\PPCOM.Data.csproj", "{89A82947-9B40-412F-A6F1-6F3EFFAA40A8}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{8D850503-DE4B-46DB-9DD0-03687458BFC5}"
-	ProjectSection(SolutionItems) = preProject
-		Database_Query\Table.sql = Database_Query\Table.sql
-	EndProjectSection
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9E20F58A-B63E-49EA-9D8E-1E97D8F94151}"
-	ProjectSection(SolutionItems) = preProject
-		PPCOM.Data\Database_Init.sql = PPCOM.Data\Database_Init.sql
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -10,25 +10,20 @@ namespace PPCOM.Data
 {
     public class DatabaseInitializer
     {
-        string connectionString = @"Server=(localdb)\MSSQLLocalDB;Database=PPCOM;Integrated Security=True;";
+        string connectionString = @"Server=(localdb)\MSSQLLocalDB;Database=master;Integrated Security=True;"; //Kết nối vào master
         SqlConnection connection;
         SqlCommand command;
         DataTable table;
         public DatabaseInitializer()
         {
-            connection = new SqlConnection(connectionString);
-            command = new SqlCommand();
-            command.Connection = connection;
-            table = new DataTable();
+
         }
         public void Initialize()
         {
             try
             {
-                string masterConn =
-                @"Server=(localdb)\MSSQLLocalDB;Database=master;Integrated Security=True;";
 
-                using (SqlConnection conn = new SqlConnection(masterConn))
+                using (SqlConnection conn = new SqlConnection(connectionString))
                 {
                     conn.Open();
 
@@ -37,8 +32,8 @@ namespace PPCOM.Data
 
                     cmd.ExecuteNonQuery();
                 }
-
-                using (SqlConnection conn = new SqlConnection(connectionString))
+                string connStrPPCOM = @"Server=(localdb)\MSSQLLocalDB;Database=PPCOM;Integrated Security=True;";
+                using (SqlConnection conn = new SqlConnection(connStrPPCOM))
                 {
                     conn.Open();
 
