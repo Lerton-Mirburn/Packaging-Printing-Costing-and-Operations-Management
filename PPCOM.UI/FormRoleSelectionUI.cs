@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace LoginSystem
@@ -17,31 +10,22 @@ namespace LoginSystem
             InitializeComponent();
         }
 
-        private void label3_Click(object sender, EventArgs e)
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void BtnClose_Click(object sender, EventArgs e)
-        {
-
+            FormLoginUI loginForm = new FormLoginUI();
+            loginForm.Show();
+            this.Hide();
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-            FormLoginUI f2 = new FormLoginUI();
-            f2.Show();
+            FormLoginUI loginForm = new FormLoginUI();
+            loginForm.Show();
             this.Hide();
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
+        private void label3_Click(object sender, EventArgs e) { }
+        private void label1_Click(object sender, EventArgs e) { }
+        private void BtnClose_Click(object sender, EventArgs e) { }
     }
 }

@@ -1,15 +1,6 @@
-﻿using PPCOM;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System;
 using System.Windows.Forms;
-
-using PPCOM.Services;
+using PPCOM.UI.Controls;
 
 namespace LoginSystem
 {
@@ -18,13 +9,21 @@ namespace LoginSystem
         public FormLoginUI()
         {
             InitializeComponent();
+            LoadUserControl(new ucLogin());
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        public void LoadUserControl(UserControl uc)
         {
+            uc.Dock = DockStyle.Fill;
 
-        }
+            if (pnlAuthContainer.Controls.Count > 0)
+            {
+                var oldControl = pnlAuthContainer.Controls[0];
+                pnlAuthContainer.Controls.Remove(oldControl);
+                oldControl.Dispose();
+            }
 
+<<<<<<< HEAD
         private void label1_Click(object sender, EventArgs e)
         {
 
@@ -103,6 +102,10 @@ namespace LoginSystem
             {
                 MessageBox.Show("Wrong username or password");
             }
+=======
+            pnlAuthContainer.Controls.Add(uc);
+            uc.BringToFront();
+>>>>>>> 07a4efac2de0b5050a17b6109040ff2500719157
         }
     }
 }
