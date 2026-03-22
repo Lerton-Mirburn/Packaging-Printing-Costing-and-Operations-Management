@@ -44,6 +44,22 @@ namespace PPCOM.Data
             return list;
         }
 
+        public bool CheckLogin(string username, string password)
+        {
+            using (SqlConnection conn = new SqlConnection(connStr))
+            {
+                conn.Open();
 
+                string query = "SELECT COUNT(*) FROM Users WHERE username=@u AND password=@p";
+
+                SqlCommand cmd = new SqlCommand(query, conn);
+                cmd.Parameters.AddWithValue("@u", username);
+                cmd.Parameters.AddWithValue("@p", password);
+
+                int count = (int)cmd.ExecuteScalar();
+
+                return count > 0;
+            }
+        }
     }
 }

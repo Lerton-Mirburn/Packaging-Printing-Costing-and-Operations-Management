@@ -21,7 +21,7 @@ namespace LoginSystem
             //Tự động khởi tạo localDB cho ứng dụng nếu chưa tồn tại để tránh lỗi khi chạy ứng dụng lần đầu tiên
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MainForm());
+            Application.Run(new FormLoginUI());
         }
     }
 }

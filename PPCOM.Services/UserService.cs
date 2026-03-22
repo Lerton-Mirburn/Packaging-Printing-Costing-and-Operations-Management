@@ -18,5 +18,11 @@ namespace PPCOM.Services
         {
             return repo.GetEmployees();
         }
+
+        public bool Login(string username, string password)
+        {
+            // code more later
+            return repo.CheckLogin(username, password);
+        }
     }
 }

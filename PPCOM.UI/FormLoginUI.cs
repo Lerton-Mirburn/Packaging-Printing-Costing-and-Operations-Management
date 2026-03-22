@@ -87,22 +87,22 @@ namespace LoginSystem
 
         private void BtnSignin_Click(object sender, EventArgs e)
         {
-            //string username = txtUser.Text;
-            //string password = txtPassword.Text;
+            string username = txtUser.Text;
+            string password = txtPassword.Text;
 
 
-            //UserService service = new UserService();
+            UserService service = new UserService();
 
-            //if (service.Login(username, password))
-            //{
-            //    MainForm main = new MainForm();
-            //    main.Show();
-            //    this.Hide();
-            //}
-            //else
-            //{
-            //    MessageBox.Show("Wrong username or password");
-            //}
+            if (service.Login(username, password))
+            {
+                MainForm main = new MainForm();
+                main.Show();
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("Wrong username or password");
+            }
         }
     }
 }
