@@ -18,12 +18,7 @@ namespace PPCOM
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-<<<<<<< HEAD
-            Application.Run(new FormLoginUI());
-=======
-
             Application.Run(new FormRoleSelection());
->>>>>>> 07a4efac2de0b5050a17b6109040ff2500719157
         }
     }
 }
