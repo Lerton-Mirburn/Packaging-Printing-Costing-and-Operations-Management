@@ -59,11 +59,6 @@ namespace LoginSystem
 
         }
 
-        private void label7_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void panel2_Paint(object sender, PaintEventArgs e)
         {
 
@@ -86,26 +81,77 @@ namespace LoginSystem
 
         private void BtnSignin_Click(object sender, EventArgs e)
         {
-            string username = txtUser.Text;
-            string password = txtPassword.Text;
 
+        }
 
-            UserService service = new UserService();
+        private void pnlAuthContainer_Paint(object sender, PaintEventArgs e)
+        {
 
-            if (service.Login(username, password))
-            {
-                MainForm main = new MainForm();
-                main.Show();
-                this.Hide();
-            }
-            else
-            {
-                MessageBox.Show("Wrong username or password");
-            }
-=======
-            pnlAuthContainer.Controls.Add(uc);
-            uc.BringToFront();
->>>>>>> 07a4efac2de0b5050a17b6109040ff2500719157
+        }
+
+        private void label6_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label7_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox3_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label8_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel2_Paint_1(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void pnlAuthContainer_Paint_1(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

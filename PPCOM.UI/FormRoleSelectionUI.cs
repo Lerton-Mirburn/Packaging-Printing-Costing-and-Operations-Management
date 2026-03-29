@@ -27,5 +27,15 @@ namespace LoginSystem
         private void label3_Click(object sender, EventArgs e) { }
         private void label1_Click(object sender, EventArgs e) { }
         private void BtnClose_Click(object sender, EventArgs e) { }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
