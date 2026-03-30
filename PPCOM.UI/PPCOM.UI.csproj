@@ -59,11 +59,11 @@
     <Compile Include="Controls\EmployeeControl.Designer.cs">
       <DependentUpon>EmployeeControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="Controls\ucLogin.cs">
+    <Compile Include="Controls\CalculateControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Controls\ucLogin.Designer.cs">
-      <DependentUpon>ucLogin.cs</DependentUpon>
+    <Compile Include="Controls\CalculateControl.Designer.cs">
+      <DependentUpon>CalculateControl.cs</DependentUpon>
     </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
@@ -103,14 +103,14 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Controls\CalculateControl.resx">
+      <DependentUpon>CalculateControl.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Controls\DashboardControl.resx">
       <DependentUpon>DashboardControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Controls\EmployeeControl.resx">
       <DependentUpon>EmployeeControl.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Controls\ucLogin.resx">
-      <DependentUpon>ucLogin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormForgotPasswordUI.resx">
       <DependentUpon>FormForgotPasswordUI.cs</DependentUpon>

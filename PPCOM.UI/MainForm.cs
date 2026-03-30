@@ -48,7 +48,7 @@ namespace PPCOM
 
         private void btnCalculate_Click(object sender, EventArgs e)
         {
-
+            LoadPage(new CalculateControl());
         }
 
         private void pictureLogo_Click(object sender, EventArgs e)
