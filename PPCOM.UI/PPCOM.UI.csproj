@@ -65,6 +65,24 @@
     <Compile Include="Controls\CalculateControl.Designer.cs">
       <DependentUpon>CalculateControl.cs</DependentUpon>
     </Compile>
+    <Compile Include="Controls\CreatePurchaseOrderControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\CreatePurchaseOrderControl.Designer.cs">
+      <DependentUpon>CreatePurchaseOrderControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Purchase.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Purchase.Designer.cs">
+      <DependentUpon>Purchase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\PurchaseListControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\PurchaseListControl.Designer.cs">
+      <DependentUpon>PurchaseListControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -111,6 +129,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Controls\EmployeeControl.resx">
       <DependentUpon>EmployeeControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\CreatePurchaseOrderControl.resx">
+      <DependentUpon>CreatePurchaseOrderControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Purchase.resx">
+      <DependentUpon>Purchase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\PurchaseListControl.resx">
+      <DependentUpon>PurchaseListControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormForgotPasswordUI.resx">
       <DependentUpon>FormForgotPasswordUI.cs</DependentUpon>

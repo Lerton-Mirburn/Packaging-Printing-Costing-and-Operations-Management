@@ -28,6 +28,10 @@ namespace PPCOM
         {
 
         }
+        private void pictureLogo_Click(object sender, EventArgs e)
+        {
+            LoadPage(new DashboardControl());
+        }
 
         private void MainForm_Load(object sender, EventArgs e)
         {
@@ -50,13 +54,32 @@ namespace PPCOM
         {
             LoadPage(new CalculateControl());
         }
-
-        private void pictureLogo_Click(object sender, EventArgs e)
+        private void btnPay_Click(object sender, EventArgs e)
         {
-            LoadPage(new DashboardControl());
+
         }
 
-        private void btnPay_Click(object sender, EventArgs e)
+        private void btnOrder_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnProduce_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnStorage_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnReport_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnEstimate_Click(object sender, EventArgs e)
         {
 
         }

@@ -1,4 +1,4 @@
-CREATE TABLE Roles (
+﻿CREATE TABLE Roles (
     role_id INT IDENTITY(1,1) PRIMARY KEY,
     role_name VARCHAR(50) NOT NULL
 );
@@ -107,7 +107,26 @@ CREATE TABLE Payments (
     payment_date DATE,
     FOREIGN KEY (debt_id) REFERENCES Debts(debt_id)
 );
-INSERT INTO Roles
-VALUES ('Admin');
-INSERT INTO Users (username, password, email, role_id)
-VALUES ('admin', '123', 'admin@gmail.com', 1);
+INSERT INTO Roles (role_name) VALUES
+('Admin'),
+(N'Nhân viên báo giá'),
+(N'Nhân viên mua hàng'),
+(N'Nhân viên kho'),
+(N'Nhân viên kế toán');
+INSERT INTO Users (username, password, email, role_id) VALUES 
+('admin', 'admin', 'admin@gmail.com', 1),
+-- Nhân viên báo giá (role_id = 2)
+('baogia01', '123456', 'baogia01@gmail.com', 2),
+('baogia02', '123456', 'baogia02@gmail.com', 2),
+
+-- Nhân viên mua hàng (role_id = 3)
+('muahang01', '123456', 'muahang01@gmail.com', 3),
+('muahang02', '123456', 'muahang02@gmail.com', 3),
+
+-- Nhân viên kho (role_id = 4)
+('kho01', '123456', 'kho01@gmail.com', 4),
+('kho02', '123456', 'kho02@gmail.com', 4),
+
+-- Nhân viên kế toán (role_id = 5)
+('ketoan01', '123456', 'ketoan01@gmail.com', 5),
+('ketoan02', '123456', 'ketoan02@gmail.com', 5);

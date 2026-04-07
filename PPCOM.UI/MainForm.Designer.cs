@@ -92,7 +92,7 @@
             // 
             // panelContent
             // 
-            this.panelContent.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelContent.AutoScroll = true;
             this.panelContent.Location = new System.Drawing.Point(240, 0);
             this.panelContent.Name = "panelContent";
             this.panelContent.Size = new System.Drawing.Size(944, 542);
@@ -152,6 +152,7 @@
             this.btnReport.TabIndex = 24;
             this.btnReport.Text = "Báo cáo và thống kê";
             this.btnReport.UseVisualStyleBackColor = true;
+            this.btnReport.Click += new System.EventHandler(this.btnReport_Click);
             // 
             // btnCalculate
             // 
@@ -181,6 +182,7 @@
             this.btnOrder.TabIndex = 20;
             this.btnOrder.Text = "Quản lý mua hàng";
             this.btnOrder.UseVisualStyleBackColor = true;
+            this.btnOrder.Click += new System.EventHandler(this.btnOrder_Click);
             // 
             // btnEstimate
             // 
@@ -190,6 +192,7 @@
             this.btnEstimate.TabIndex = 25;
             this.btnEstimate.Text = "Định mức vật tư và Bù hao";
             this.btnEstimate.UseVisualStyleBackColor = true;
+            this.btnEstimate.Click += new System.EventHandler(this.btnEstimate_Click);
             // 
             // btnProduce
             // 
@@ -199,6 +202,7 @@
             this.btnProduce.TabIndex = 21;
             this.btnProduce.Text = "Quản lý sản xuất";
             this.btnProduce.UseVisualStyleBackColor = true;
+            this.btnProduce.Click += new System.EventHandler(this.btnProduce_Click);
             // 
             // btnStorage
             // 
@@ -208,6 +212,7 @@
             this.btnStorage.TabIndex = 22;
             this.btnStorage.Text = "Quản lý kho";
             this.btnStorage.UseVisualStyleBackColor = true;
+            this.btnStorage.Click += new System.EventHandler(this.btnStorage_Click);
             // 
             // MainForm
             // 
