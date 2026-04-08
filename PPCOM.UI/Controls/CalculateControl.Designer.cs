@@ -393,7 +393,7 @@
             this.numericUpDown15.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.numericUpDown15.Dock = System.Windows.Forms.DockStyle.Fill;
             this.numericUpDown15.Location = new System.Drawing.Point(197, 91);
-            this.numericUpDown15.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.numericUpDown15.Margin = new System.Windows.Forms.Padding(2);
             this.numericUpDown15.Name = "numericUpDown15";
             this.numericUpDown15.Size = new System.Drawing.Size(125, 16);
             this.numericUpDown15.TabIndex = 67;
@@ -403,7 +403,7 @@
             this.numericUpDown14.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.numericUpDown14.Dock = System.Windows.Forms.DockStyle.Fill;
             this.numericUpDown14.Location = new System.Drawing.Point(197, 69);
-            this.numericUpDown14.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.numericUpDown14.Margin = new System.Windows.Forms.Padding(2);
             this.numericUpDown14.Name = "numericUpDown14";
             this.numericUpDown14.Size = new System.Drawing.Size(125, 16);
             this.numericUpDown14.TabIndex = 66;
@@ -413,17 +413,17 @@
             this.numericUpDown13.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.numericUpDown13.Dock = System.Windows.Forms.DockStyle.Fill;
             this.numericUpDown13.Location = new System.Drawing.Point(197, 47);
-            this.numericUpDown13.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.numericUpDown13.Margin = new System.Windows.Forms.Padding(2);
             this.numericUpDown13.Name = "numericUpDown13";
             this.numericUpDown13.Size = new System.Drawing.Size(125, 16);
-            this.numericUpDown13.TabIndex = 65;
+            this.numericUpDown13.TabIndex = 68;
             // 
             // numericUpDown12
             // 
             this.numericUpDown12.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.numericUpDown12.Dock = System.Windows.Forms.DockStyle.Fill;
             this.numericUpDown12.Location = new System.Drawing.Point(197, 25);
-            this.numericUpDown12.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.numericUpDown12.Margin = new System.Windows.Forms.Padding(2);
             this.numericUpDown12.Name = "numericUpDown12";
             this.numericUpDown12.Size = new System.Drawing.Size(125, 16);
             this.numericUpDown12.TabIndex = 64;
@@ -530,7 +530,7 @@
             this.tableLayoutPanel3.RowCount = 2;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 13F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 11F));
             this.tableLayoutPanel3.Size = new System.Drawing.Size(291, 45);
             this.tableLayoutPanel3.TabIndex = 50;
             // 
@@ -539,7 +539,7 @@
             this.numericUpDown9.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.numericUpDown9.Dock = System.Windows.Forms.DockStyle.Fill;
             this.numericUpDown9.Location = new System.Drawing.Point(176, 25);
-            this.numericUpDown9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.numericUpDown9.Margin = new System.Windows.Forms.Padding(2);
             this.numericUpDown9.Name = "numericUpDown9";
             this.numericUpDown9.Size = new System.Drawing.Size(112, 16);
             this.numericUpDown9.TabIndex = 64;
@@ -560,7 +560,7 @@
             this.numericUpDown7.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.numericUpDown7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.numericUpDown7.Location = new System.Drawing.Point(176, 3);
-            this.numericUpDown7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.numericUpDown7.Margin = new System.Windows.Forms.Padding(2);
             this.numericUpDown7.Name = "numericUpDown7";
             this.numericUpDown7.Size = new System.Drawing.Size(112, 16);
             this.numericUpDown7.TabIndex = 63;
@@ -620,7 +620,7 @@
             this.numericUpDown11.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.numericUpDown11.Dock = System.Windows.Forms.DockStyle.Fill;
             this.numericUpDown11.Location = new System.Drawing.Point(176, 25);
-            this.numericUpDown11.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.numericUpDown11.Margin = new System.Windows.Forms.Padding(2);
             this.numericUpDown11.Name = "numericUpDown11";
             this.numericUpDown11.Size = new System.Drawing.Size(112, 16);
             this.numericUpDown11.TabIndex = 65;
@@ -630,7 +630,7 @@
             this.numericUpDown10.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.numericUpDown10.Dock = System.Windows.Forms.DockStyle.Fill;
             this.numericUpDown10.Location = new System.Drawing.Point(176, 3);
-            this.numericUpDown10.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.numericUpDown10.Margin = new System.Windows.Forms.Padding(2);
             this.numericUpDown10.Name = "numericUpDown10";
             this.numericUpDown10.Size = new System.Drawing.Size(112, 16);
             this.numericUpDown10.TabIndex = 64;
@@ -875,7 +875,7 @@
             this.numericUpDown8.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.numericUpDown8.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.numericUpDown8.Location = new System.Drawing.Point(300, 136);
-            this.numericUpDown8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.numericUpDown8.Margin = new System.Windows.Forms.Padding(2);
             this.numericUpDown8.Name = "numericUpDown8";
             this.numericUpDown8.Size = new System.Drawing.Size(300, 16);
             this.numericUpDown8.TabIndex = 52;
@@ -885,7 +885,7 @@
             this.numericUpDown6.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.numericUpDown6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.numericUpDown6.Location = new System.Drawing.Point(300, 113);
-            this.numericUpDown6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.numericUpDown6.Margin = new System.Windows.Forms.Padding(2);
             this.numericUpDown6.Name = "numericUpDown6";
             this.numericUpDown6.Size = new System.Drawing.Size(300, 16);
             this.numericUpDown6.TabIndex = 50;
@@ -895,7 +895,7 @@
             this.numericUpDown4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.numericUpDown4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.numericUpDown4.Location = new System.Drawing.Point(300, 91);
-            this.numericUpDown4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.numericUpDown4.Margin = new System.Windows.Forms.Padding(2);
             this.numericUpDown4.Name = "numericUpDown4";
             this.numericUpDown4.Size = new System.Drawing.Size(300, 16);
             this.numericUpDown4.TabIndex = 48;
@@ -905,7 +905,7 @@
             this.numericUpDown2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.numericUpDown2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.numericUpDown2.Location = new System.Drawing.Point(300, 69);
-            this.numericUpDown2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.numericUpDown2.Margin = new System.Windows.Forms.Padding(2);
             this.numericUpDown2.Name = "numericUpDown2";
             this.numericUpDown2.Size = new System.Drawing.Size(300, 16);
             this.numericUpDown2.TabIndex = 46;
@@ -935,32 +935,31 @@
             this.label44.TabIndex = 42;
             this.label44.Text = "Giá / Ram: ............đ";
             this.label44.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label44.Click += new System.EventHandler(this.label44_Click);
             // 
             // numericUpDown1
             // 
             this.numericUpDown1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.numericUpDown1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.numericUpDown1.Location = new System.Drawing.Point(300, 47);
-            this.numericUpDown1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.numericUpDown1.Margin = new System.Windows.Forms.Padding(2);
             this.numericUpDown1.Name = "numericUpDown1";
             this.numericUpDown1.Size = new System.Drawing.Size(300, 16);
             this.numericUpDown1.TabIndex = 44;
             // 
             // numericUpDown3
             // 
-            this.numericUpDown3.Location = new System.Drawing.Point(211, 98);
-            this.numericUpDown3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.numericUpDown3.Location = new System.Drawing.Point(158, 80);
+            this.numericUpDown3.Margin = new System.Windows.Forms.Padding(2);
             this.numericUpDown3.Name = "numericUpDown3";
-            this.numericUpDown3.Size = new System.Drawing.Size(112, 20);
+            this.numericUpDown3.Size = new System.Drawing.Size(84, 20);
             this.numericUpDown3.TabIndex = 61;
             // 
             // numericUpDown16
             // 
-            this.numericUpDown16.Location = new System.Drawing.Point(26, 578);
-            this.numericUpDown16.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.numericUpDown16.Location = new System.Drawing.Point(20, 470);
+            this.numericUpDown16.Margin = new System.Windows.Forms.Padding(2);
             this.numericUpDown16.Name = "numericUpDown16";
-            this.numericUpDown16.Size = new System.Drawing.Size(165, 20);
+            this.numericUpDown16.Size = new System.Drawing.Size(124, 20);
             this.numericUpDown16.TabIndex = 63;
             // 
             // CalculateControl

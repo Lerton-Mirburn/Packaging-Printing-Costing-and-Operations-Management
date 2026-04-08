@@ -35,11 +35,6 @@ namespace PPCOM.Controls
         //    {
         //        txtTotal.Text = "";
         //    }
-        //}
-
-        private void label44_Click(object sender, EventArgs e)
-        {
-
         }
     }
-}
+

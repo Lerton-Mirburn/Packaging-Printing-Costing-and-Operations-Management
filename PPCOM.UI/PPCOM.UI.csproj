@@ -83,6 +83,12 @@
     <Compile Include="Controls\PurchaseListControl.Designer.cs">
       <DependentUpon>PurchaseListControl.cs</DependentUpon>
     </Compile>
+    <Compile Include="Controls\StorageControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\StorageControl.Designer.cs">
+      <DependentUpon>StorageControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -138,6 +144,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Controls\PurchaseListControl.resx">
       <DependentUpon>PurchaseListControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\StorageControl.resx">
+      <DependentUpon>StorageControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormForgotPasswordUI.resx">
       <DependentUpon>FormForgotPasswordUI.cs</DependentUpon>
