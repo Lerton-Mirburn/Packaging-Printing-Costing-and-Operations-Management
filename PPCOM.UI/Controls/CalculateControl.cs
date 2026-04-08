@@ -22,19 +22,24 @@ namespace PPCOM.Controls
 
         }
 
-        private void txt_TextChanged(object sender, EventArgs e)
-        {
-            int price, quantity;
+        //private void txt_TextChanged(object sender, EventArgs e)
+        //{
+        //    int price, quantity;
 
-            if (int.TryParse(txtPrice.Text, out price) &&
-                int.TryParse(txtQuantity.Text, out quantity))
-            {
-                txtTotal.Text = (price * quantity).ToString();
-            }
-            else
-            {
-                txtTotal.Text = "";
-            }
+        //    if (int.TryParse(txtPrice.Text, out price) &&
+        //        int.TryParse(txtQuantity.Text, out quantity))
+        //    {
+        //        txtTotal.Text = (price * quantity).ToString();
+        //    }
+        //    else
+        //    {
+        //        txtTotal.Text = "";
+        //    }
+        //}
+
+        private void label44_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

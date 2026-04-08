@@ -42,7 +42,6 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.label10 = new System.Windows.Forms.Label();
@@ -57,10 +56,10 @@
             this.label26 = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.textBox21 = new System.Windows.Forms.TextBox();
-            this.textBox20 = new System.Windows.Forms.TextBox();
-            this.textBox19 = new System.Windows.Forms.TextBox();
-            this.textBox18 = new System.Windows.Forms.TextBox();
+            this.numericUpDown15 = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDown14 = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDown13 = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDown12 = new System.Windows.Forms.NumericUpDown();
             this.label33 = new System.Windows.Forms.Label();
             this.label32 = new System.Windows.Forms.Label();
             this.label31 = new System.Windows.Forms.Label();
@@ -70,23 +69,21 @@
             this.label28 = new System.Windows.Forms.Label();
             this.label29 = new System.Windows.Forms.Label();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
-            this.textBox23 = new System.Windows.Forms.TextBox();
-            this.textBox22 = new System.Windows.Forms.TextBox();
+            this.numericUpDown9 = new System.Windows.Forms.NumericUpDown();
             this.label38 = new System.Windows.Forms.Label();
+            this.numericUpDown7 = new System.Windows.Forms.NumericUpDown();
             this.label39 = new System.Windows.Forms.Label();
             this.label36 = new System.Windows.Forms.Label();
             this.label37 = new System.Windows.Forms.Label();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
-            this.textBox24 = new System.Windows.Forms.TextBox();
-            this.textBox25 = new System.Windows.Forms.TextBox();
+            this.numericUpDown11 = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDown10 = new System.Windows.Forms.NumericUpDown();
             this.label40 = new System.Windows.Forms.Label();
             this.label41 = new System.Windows.Forms.Label();
-            this.textBox26 = new System.Windows.Forms.TextBox();
             this.label42 = new System.Windows.Forms.Label();
             this.label43 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
-            this.textBox10 = new System.Windows.Forms.TextBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label22 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
@@ -98,18 +95,36 @@
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
-            this.textBox17 = new System.Windows.Forms.TextBox();
             this.label23 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.textBox15 = new System.Windows.Forms.TextBox();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.numericUpDown8 = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDown6 = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDown4 = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
+            this.label45 = new System.Windows.Forms.Label();
+            this.label44 = new System.Windows.Forms.Label();
+            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDown3 = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDown16 = new System.Windows.Forms.NumericUpDown();
             this.tableLayoutPanel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown15)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown14)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown13)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown12)).BeginInit();
             this.tableLayoutPanel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown7)).BeginInit();
             this.tableLayoutPanel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown10)).BeginInit();
             this.tableLayoutPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown16)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -227,13 +242,6 @@
             this.label8.TabIndex = 14;
             this.label8.Text = "Số lượng SP";
             // 
-            // textBox7
-            // 
-            this.textBox7.Location = new System.Drawing.Point(211, 99);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(113, 20);
-            this.textBox7.TabIndex = 13;
-            // 
             // label9
             // 
             this.label9.AutoSize = true;
@@ -319,7 +327,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(54, 23);
             this.button1.TabIndex = 43;
-            this.button1.Text = "button1";
+            this.button1.Text = "NHỎ";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // button2
@@ -328,7 +336,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(54, 23);
             this.button2.TabIndex = 44;
-            this.button2.Text = "button2";
+            this.button2.Text = "LỚN";
             this.button2.UseVisualStyleBackColor = true;
             // 
             // label26
@@ -354,13 +362,14 @@
             // tableLayoutPanel2
             // 
             this.tableLayoutPanel2.BackColor = System.Drawing.SystemColors.Window;
+            this.tableLayoutPanel2.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
             this.tableLayoutPanel2.ColumnCount = 2;
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 60F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 40F));
-            this.tableLayoutPanel2.Controls.Add(this.textBox21, 1, 4);
-            this.tableLayoutPanel2.Controls.Add(this.textBox20, 1, 3);
-            this.tableLayoutPanel2.Controls.Add(this.textBox19, 1, 2);
-            this.tableLayoutPanel2.Controls.Add(this.textBox18, 1, 1);
+            this.tableLayoutPanel2.Controls.Add(this.numericUpDown15, 1, 4);
+            this.tableLayoutPanel2.Controls.Add(this.numericUpDown14, 1, 3);
+            this.tableLayoutPanel2.Controls.Add(this.numericUpDown13, 1, 2);
+            this.tableLayoutPanel2.Controls.Add(this.numericUpDown12, 1, 1);
             this.tableLayoutPanel2.Controls.Add(this.label33, 0, 2);
             this.tableLayoutPanel2.Controls.Add(this.label32, 0, 1);
             this.tableLayoutPanel2.Controls.Add(this.label31, 1, 0);
@@ -379,37 +388,45 @@
             this.tableLayoutPanel2.Size = new System.Drawing.Size(325, 114);
             this.tableLayoutPanel2.TabIndex = 47;
             // 
-            // textBox21
+            // numericUpDown15
             // 
-            this.textBox21.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox21.Location = new System.Drawing.Point(198, 91);
-            this.textBox21.Name = "textBox21";
-            this.textBox21.Size = new System.Drawing.Size(124, 20);
-            this.textBox21.TabIndex = 58;
+            this.numericUpDown15.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.numericUpDown15.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.numericUpDown15.Location = new System.Drawing.Point(197, 91);
+            this.numericUpDown15.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.numericUpDown15.Name = "numericUpDown15";
+            this.numericUpDown15.Size = new System.Drawing.Size(125, 16);
+            this.numericUpDown15.TabIndex = 67;
             // 
-            // textBox20
+            // numericUpDown14
             // 
-            this.textBox20.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox20.Location = new System.Drawing.Point(198, 69);
-            this.textBox20.Name = "textBox20";
-            this.textBox20.Size = new System.Drawing.Size(124, 20);
-            this.textBox20.TabIndex = 57;
+            this.numericUpDown14.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.numericUpDown14.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.numericUpDown14.Location = new System.Drawing.Point(197, 69);
+            this.numericUpDown14.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.numericUpDown14.Name = "numericUpDown14";
+            this.numericUpDown14.Size = new System.Drawing.Size(125, 16);
+            this.numericUpDown14.TabIndex = 66;
             // 
-            // textBox19
+            // numericUpDown13
             // 
-            this.textBox19.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox19.Location = new System.Drawing.Point(198, 47);
-            this.textBox19.Name = "textBox19";
-            this.textBox19.Size = new System.Drawing.Size(124, 20);
-            this.textBox19.TabIndex = 56;
+            this.numericUpDown13.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.numericUpDown13.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.numericUpDown13.Location = new System.Drawing.Point(197, 47);
+            this.numericUpDown13.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.numericUpDown13.Name = "numericUpDown13";
+            this.numericUpDown13.Size = new System.Drawing.Size(125, 16);
+            this.numericUpDown13.TabIndex = 65;
             // 
-            // textBox18
+            // numericUpDown12
             // 
-            this.textBox18.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox18.Location = new System.Drawing.Point(198, 25);
-            this.textBox18.Name = "textBox18";
-            this.textBox18.Size = new System.Drawing.Size(124, 20);
-            this.textBox18.TabIndex = 55;
+            this.numericUpDown12.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.numericUpDown12.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.numericUpDown12.Location = new System.Drawing.Point(197, 25);
+            this.numericUpDown12.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.numericUpDown12.Name = "numericUpDown12";
+            this.numericUpDown12.Size = new System.Drawing.Size(125, 16);
+            this.numericUpDown12.TabIndex = 64;
             // 
             // label33
             // 
@@ -500,34 +517,32 @@
             // tableLayoutPanel3
             // 
             this.tableLayoutPanel3.BackColor = System.Drawing.SystemColors.Window;
+            this.tableLayoutPanel3.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
             this.tableLayoutPanel3.ColumnCount = 2;
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 60F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 40F));
-            this.tableLayoutPanel3.Controls.Add(this.textBox23, 1, 1);
-            this.tableLayoutPanel3.Controls.Add(this.textBox22, 1, 0);
+            this.tableLayoutPanel3.Controls.Add(this.numericUpDown9, 1, 1);
             this.tableLayoutPanel3.Controls.Add(this.label38, 0, 0);
+            this.tableLayoutPanel3.Controls.Add(this.numericUpDown7, 1, 0);
             this.tableLayoutPanel3.Controls.Add(this.label39, 0, 1);
             this.tableLayoutPanel3.Location = new System.Drawing.Point(635, 443);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 2;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 13F));
             this.tableLayoutPanel3.Size = new System.Drawing.Size(291, 45);
             this.tableLayoutPanel3.TabIndex = 50;
             // 
-            // textBox23
+            // numericUpDown9
             // 
-            this.textBox23.Location = new System.Drawing.Point(177, 25);
-            this.textBox23.Name = "textBox23";
-            this.textBox23.Size = new System.Drawing.Size(111, 20);
-            this.textBox23.TabIndex = 57;
-            // 
-            // textBox22
-            // 
-            this.textBox22.Location = new System.Drawing.Point(177, 3);
-            this.textBox22.Name = "textBox22";
-            this.textBox22.Size = new System.Drawing.Size(111, 20);
-            this.textBox22.TabIndex = 56;
+            this.numericUpDown9.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.numericUpDown9.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.numericUpDown9.Location = new System.Drawing.Point(176, 25);
+            this.numericUpDown9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.numericUpDown9.Name = "numericUpDown9";
+            this.numericUpDown9.Size = new System.Drawing.Size(112, 16);
+            this.numericUpDown9.TabIndex = 64;
             // 
             // label38
             // 
@@ -539,6 +554,16 @@
             this.label38.Size = new System.Drawing.Size(57, 16);
             this.label38.TabIndex = 55;
             this.label38.Text = " Tiền Bế";
+            // 
+            // numericUpDown7
+            // 
+            this.numericUpDown7.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.numericUpDown7.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.numericUpDown7.Location = new System.Drawing.Point(176, 3);
+            this.numericUpDown7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.numericUpDown7.Name = "numericUpDown7";
+            this.numericUpDown7.Size = new System.Drawing.Size(112, 16);
+            this.numericUpDown7.TabIndex = 63;
             // 
             // label39
             // 
@@ -574,11 +599,12 @@
             // tableLayoutPanel4
             // 
             this.tableLayoutPanel4.BackColor = System.Drawing.SystemColors.Window;
+            this.tableLayoutPanel4.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
             this.tableLayoutPanel4.ColumnCount = 2;
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 60F));
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 40F));
-            this.tableLayoutPanel4.Controls.Add(this.textBox24, 1, 1);
-            this.tableLayoutPanel4.Controls.Add(this.textBox25, 1, 0);
+            this.tableLayoutPanel4.Controls.Add(this.numericUpDown11, 1, 1);
+            this.tableLayoutPanel4.Controls.Add(this.numericUpDown10, 1, 0);
             this.tableLayoutPanel4.Controls.Add(this.label40, 0, 0);
             this.tableLayoutPanel4.Controls.Add(this.label41, 0, 1);
             this.tableLayoutPanel4.Location = new System.Drawing.Point(635, 513);
@@ -589,19 +615,25 @@
             this.tableLayoutPanel4.Size = new System.Drawing.Size(291, 45);
             this.tableLayoutPanel4.TabIndex = 54;
             // 
-            // textBox24
+            // numericUpDown11
             // 
-            this.textBox24.Location = new System.Drawing.Point(177, 25);
-            this.textBox24.Name = "textBox24";
-            this.textBox24.Size = new System.Drawing.Size(111, 20);
-            this.textBox24.TabIndex = 57;
+            this.numericUpDown11.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.numericUpDown11.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.numericUpDown11.Location = new System.Drawing.Point(176, 25);
+            this.numericUpDown11.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.numericUpDown11.Name = "numericUpDown11";
+            this.numericUpDown11.Size = new System.Drawing.Size(112, 16);
+            this.numericUpDown11.TabIndex = 65;
             // 
-            // textBox25
+            // numericUpDown10
             // 
-            this.textBox25.Location = new System.Drawing.Point(177, 3);
-            this.textBox25.Name = "textBox25";
-            this.textBox25.Size = new System.Drawing.Size(111, 20);
-            this.textBox25.TabIndex = 56;
+            this.numericUpDown10.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.numericUpDown10.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.numericUpDown10.Location = new System.Drawing.Point(176, 3);
+            this.numericUpDown10.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.numericUpDown10.Name = "numericUpDown10";
+            this.numericUpDown10.Size = new System.Drawing.Size(112, 16);
+            this.numericUpDown10.TabIndex = 64;
             // 
             // label40
             // 
@@ -624,13 +656,6 @@
             this.label41.Size = new System.Drawing.Size(112, 16);
             this.label41.TabIndex = 56;
             this.label41.Text = "Tiền xe và In Proff";
-            // 
-            // textBox26
-            // 
-            this.textBox26.Location = new System.Drawing.Point(26, 578);
-            this.textBox26.Name = "textBox26";
-            this.textBox26.Size = new System.Drawing.Size(166, 20);
-            this.textBox26.TabIndex = 56;
             // 
             // label42
             // 
@@ -671,14 +696,6 @@
             this.button4.TabIndex = 60;
             this.button4.Text = "Lập báo giá sản phẩm/ xuất pdf";
             this.button4.UseVisualStyleBackColor = false;
-            // 
-            // textBox10
-            // 
-            this.textBox10.Location = new System.Drawing.Point(606, 48);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(291, 20);
-            this.textBox10.TabIndex = 38;
-            this.textBox10.Text = "Giá / Ram: ............đ";
             // 
             // comboBox1
             // 
@@ -799,14 +816,6 @@
             this.label17.TabIndex = 25;
             this.label17.Text = "Giá giấy/ Tấn";
             // 
-            // textBox17
-            // 
-            this.textBox17.Location = new System.Drawing.Point(606, 158);
-            this.textBox17.Name = "textBox17";
-            this.textBox17.Size = new System.Drawing.Size(291, 20);
-            this.textBox17.TabIndex = 41;
-            this.textBox17.Text = "=> Cần mua";
-            // 
             // label23
             // 
             this.label23.AutoSize = true;
@@ -827,10 +836,11 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 34F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33F));
+            this.tableLayoutPanel1.Controls.Add(this.numericUpDown8, 1, 6);
+            this.tableLayoutPanel1.Controls.Add(this.numericUpDown6, 1, 5);
+            this.tableLayoutPanel1.Controls.Add(this.numericUpDown4, 1, 4);
+            this.tableLayoutPanel1.Controls.Add(this.numericUpDown2, 1, 3);
             this.tableLayoutPanel1.Controls.Add(this.label23, 0, 8);
-            this.tableLayoutPanel1.Controls.Add(this.textBox17, 2, 7);
-            this.tableLayoutPanel1.Controls.Add(this.textBox12, 1, 3);
-            this.tableLayoutPanel1.Controls.Add(this.textBox11, 1, 2);
             this.tableLayoutPanel1.Controls.Add(this.label17, 0, 2);
             this.tableLayoutPanel1.Controls.Add(this.label16, 0, 1);
             this.tableLayoutPanel1.Controls.Add(this.label15, 2, 0);
@@ -841,11 +851,10 @@
             this.tableLayoutPanel1.Controls.Add(this.label20, 0, 5);
             this.tableLayoutPanel1.Controls.Add(this.label21, 0, 6);
             this.tableLayoutPanel1.Controls.Add(this.label22, 0, 7);
-            this.tableLayoutPanel1.Controls.Add(this.textBox13, 1, 4);
-            this.tableLayoutPanel1.Controls.Add(this.textBox14, 1, 5);
-            this.tableLayoutPanel1.Controls.Add(this.textBox15, 1, 6);
             this.tableLayoutPanel1.Controls.Add(this.comboBox1, 1, 1);
-            this.tableLayoutPanel1.Controls.Add(this.textBox10, 2, 2);
+            this.tableLayoutPanel1.Controls.Add(this.label45, 2, 7);
+            this.tableLayoutPanel1.Controls.Add(this.label44, 2, 2);
+            this.tableLayoutPanel1.Controls.Add(this.numericUpDown1, 1, 2);
             this.tableLayoutPanel1.Location = new System.Drawing.Point(26, 170);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 9;
@@ -861,50 +870,98 @@
             this.tableLayoutPanel1.Size = new System.Drawing.Size(901, 203);
             this.tableLayoutPanel1.TabIndex = 24;
             // 
-            // textBox15
+            // numericUpDown8
             // 
-            this.textBox15.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox15.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox15.Location = new System.Drawing.Point(301, 136);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(298, 13);
-            this.textBox15.TabIndex = 35;
+            this.numericUpDown8.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.numericUpDown8.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.numericUpDown8.Location = new System.Drawing.Point(300, 136);
+            this.numericUpDown8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.numericUpDown8.Name = "numericUpDown8";
+            this.numericUpDown8.Size = new System.Drawing.Size(300, 16);
+            this.numericUpDown8.TabIndex = 52;
             // 
-            // textBox14
+            // numericUpDown6
             // 
-            this.textBox14.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox14.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox14.Location = new System.Drawing.Point(301, 114);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(298, 13);
-            this.textBox14.TabIndex = 34;
+            this.numericUpDown6.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.numericUpDown6.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.numericUpDown6.Location = new System.Drawing.Point(300, 113);
+            this.numericUpDown6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.numericUpDown6.Name = "numericUpDown6";
+            this.numericUpDown6.Size = new System.Drawing.Size(300, 16);
+            this.numericUpDown6.TabIndex = 50;
             // 
-            // textBox13
+            // numericUpDown4
             // 
-            this.textBox13.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox13.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox13.Location = new System.Drawing.Point(301, 92);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(298, 13);
-            this.textBox13.TabIndex = 33;
+            this.numericUpDown4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.numericUpDown4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.numericUpDown4.Location = new System.Drawing.Point(300, 91);
+            this.numericUpDown4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.numericUpDown4.Name = "numericUpDown4";
+            this.numericUpDown4.Size = new System.Drawing.Size(300, 16);
+            this.numericUpDown4.TabIndex = 48;
             // 
-            // textBox12
+            // numericUpDown2
             // 
-            this.textBox12.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox12.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox12.Location = new System.Drawing.Point(301, 70);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(298, 13);
-            this.textBox12.TabIndex = 32;
+            this.numericUpDown2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.numericUpDown2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.numericUpDown2.Location = new System.Drawing.Point(300, 69);
+            this.numericUpDown2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.numericUpDown2.Name = "numericUpDown2";
+            this.numericUpDown2.Size = new System.Drawing.Size(300, 16);
+            this.numericUpDown2.TabIndex = 46;
             // 
-            // textBox11
+            // label45
             // 
-            this.textBox11.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox11.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox11.Location = new System.Drawing.Point(301, 48);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(298, 13);
-            this.textBox11.TabIndex = 32;
+            this.label45.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.label45.AutoSize = true;
+            this.label45.Location = new System.Drawing.Point(605, 155);
+            this.label45.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label45.Name = "label45";
+            this.label45.Size = new System.Drawing.Size(67, 21);
+            this.label45.TabIndex = 43;
+            this.label45.Text = "=> Cần mua:";
+            this.label45.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label44
+            // 
+            this.label44.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.label44.AutoSize = true;
+            this.label44.Location = new System.Drawing.Point(605, 45);
+            this.label44.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label44.Name = "label44";
+            this.label44.Size = new System.Drawing.Size(105, 21);
+            this.label44.TabIndex = 42;
+            this.label44.Text = "Giá / Ram: ............đ";
+            this.label44.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label44.Click += new System.EventHandler(this.label44_Click);
+            // 
+            // numericUpDown1
+            // 
+            this.numericUpDown1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.numericUpDown1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.numericUpDown1.Location = new System.Drawing.Point(300, 47);
+            this.numericUpDown1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.numericUpDown1.Name = "numericUpDown1";
+            this.numericUpDown1.Size = new System.Drawing.Size(300, 16);
+            this.numericUpDown1.TabIndex = 44;
+            // 
+            // numericUpDown3
+            // 
+            this.numericUpDown3.Location = new System.Drawing.Point(211, 98);
+            this.numericUpDown3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.numericUpDown3.Name = "numericUpDown3";
+            this.numericUpDown3.Size = new System.Drawing.Size(112, 20);
+            this.numericUpDown3.TabIndex = 61;
+            // 
+            // numericUpDown16
+            // 
+            this.numericUpDown16.Location = new System.Drawing.Point(26, 578);
+            this.numericUpDown16.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.numericUpDown16.Name = "numericUpDown16";
+            this.numericUpDown16.Size = new System.Drawing.Size(165, 20);
+            this.numericUpDown16.TabIndex = 63;
             // 
             // CalculateControl
             // 
@@ -916,7 +973,6 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.label43);
             this.Controls.Add(this.label42);
-            this.Controls.Add(this.textBox26);
             this.Controls.Add(this.tableLayoutPanel4);
             this.Controls.Add(this.label37);
             this.Controls.Add(this.label36);
@@ -939,7 +995,6 @@
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.textBox7);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.textBox6);
@@ -953,17 +1008,34 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.numericUpDown3);
+            this.Controls.Add(this.numericUpDown16);
             this.Name = "CalculateControl";
             this.Size = new System.Drawing.Size(950, 680);
             this.Load += new System.EventHandler(this.CalculateControl_Load);
             this.tableLayoutPanel2.ResumeLayout(false);
             this.tableLayoutPanel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown15)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown14)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown13)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown12)).EndInit();
             this.tableLayoutPanel3.ResumeLayout(false);
             this.tableLayoutPanel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown7)).EndInit();
             this.tableLayoutPanel4.ResumeLayout(false);
             this.tableLayoutPanel4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown10)).EndInit();
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown16)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -985,7 +1057,6 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Label label10;
@@ -1000,10 +1071,6 @@
         private System.Windows.Forms.Label label26;
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
-        private System.Windows.Forms.TextBox textBox21;
-        private System.Windows.Forms.TextBox textBox20;
-        private System.Windows.Forms.TextBox textBox19;
-        private System.Windows.Forms.TextBox textBox18;
         private System.Windows.Forms.Label label33;
         private System.Windows.Forms.Label label32;
         private System.Windows.Forms.Label label31;
@@ -1017,19 +1084,13 @@
         private System.Windows.Forms.Label label39;
         private System.Windows.Forms.Label label36;
         private System.Windows.Forms.Label label37;
-        private System.Windows.Forms.TextBox textBox22;
-        private System.Windows.Forms.TextBox textBox23;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel4;
-        private System.Windows.Forms.TextBox textBox24;
-        private System.Windows.Forms.TextBox textBox25;
         private System.Windows.Forms.Label label40;
         private System.Windows.Forms.Label label41;
-        private System.Windows.Forms.TextBox textBox26;
         private System.Windows.Forms.Label label42;
         private System.Windows.Forms.Label label43;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.TextBox textBox10;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Label label21;
@@ -1041,13 +1102,24 @@
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.TextBox textBox17;
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
-        private System.Windows.Forms.TextBox textBox12;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.TextBox textBox13;
-        private System.Windows.Forms.TextBox textBox14;
-        private System.Windows.Forms.TextBox textBox15;
+        private System.Windows.Forms.Label label45;
+        private System.Windows.Forms.Label label44;
+        private System.Windows.Forms.NumericUpDown numericUpDown8;
+        private System.Windows.Forms.NumericUpDown numericUpDown6;
+        private System.Windows.Forms.NumericUpDown numericUpDown4;
+        private System.Windows.Forms.NumericUpDown numericUpDown2;
+        private System.Windows.Forms.NumericUpDown numericUpDown1;
+        private System.Windows.Forms.NumericUpDown numericUpDown15;
+        private System.Windows.Forms.NumericUpDown numericUpDown14;
+        private System.Windows.Forms.NumericUpDown numericUpDown13;
+        private System.Windows.Forms.NumericUpDown numericUpDown12;
+        private System.Windows.Forms.NumericUpDown numericUpDown9;
+        private System.Windows.Forms.NumericUpDown numericUpDown7;
+        private System.Windows.Forms.NumericUpDown numericUpDown11;
+        private System.Windows.Forms.NumericUpDown numericUpDown10;
+        private System.Windows.Forms.NumericUpDown numericUpDown3;
+        private System.Windows.Forms.NumericUpDown numericUpDown16;
     }
 }
