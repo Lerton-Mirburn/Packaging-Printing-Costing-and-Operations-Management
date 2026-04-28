@@ -12,52 +12,37 @@ namespace PPCOM.Data
 {
     public class DatabaseInitializer
     {
-        string connectionString = @"Server=(localdb)\MSSQLLocalDB;Database=master;Integrated Security=True;"; //Kết nối vào master
-        SqlConnection connection;
-        SqlCommand command;
-        DataTable table;
-        public DatabaseInitializer()
+        private string connStr;
+        public DatabaseInitializer(string connectionString)
         {
-
+            connStr = connectionString;
         }
-        public void Initialize()
+        public void ExecuteSqlFile(string path)
         {
-            try
+            string sql = File.ReadAllText(path);
+
+            string[] commands = sql.Split(new[] { "GO" }, StringSplitOptions.RemoveEmptyEntries);
+
+            using (SqlConnection conn = new SqlConnection(connStr))
             {
+                conn.Open();
 
-                using (SqlConnection conn = new SqlConnection(connectionString))
+                foreach (string command in commands)
                 {
-                    conn.Open();
+                    if (string.IsNullOrWhiteSpace(command)) continue;
 
-                    SqlCommand cmd = new SqlCommand(
-                    "IF DB_ID('PPCOM') IS NULL CREATE DATABASE PPCOM", conn);
-
+                    SqlCommand cmd = new SqlCommand(command, conn);
                     cmd.ExecuteNonQuery();
                 }
-                string connStrPPCOM = @"Server=(localdb)\MSSQLLocalDB;Database=PPCOM;Integrated Security=True;";
-                using (SqlConnection conn = new SqlConnection(connStrPPCOM))
-                {
-                    conn.Open();
-
-                    string path = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Database_Init.sql");
-                    string sql = File.ReadAllText(path);
-                    string[] commands = sql.Split(new[] { "GO" }, StringSplitOptions.RemoveEmptyEntries);
-
-                    foreach (string commandText in commands)
-                    {
-                        if (string.IsNullOrWhiteSpace(commandText)) continue;
-
-                        using (SqlCommand cmd = new SqlCommand(commandText, conn))
-                        {
-                            cmd.ExecuteNonQuery();
-                        }
-                    }
-                }
             }
-            catch (Exception ex)
-            {
-                Debug.WriteLine(ex.ToString());
-            }
+        }
+
+        public void Initialize()
+        {
+            ExecuteSqlFile("Data/create_tables.sql");
+            ExecuteSqlFile("Data/create_functions.sql");
+            ExecuteSqlFile("Data/create_procedures.sql");
+            ExecuteSqlFile("Data/create_insertion.sql");
         }
     }
 }

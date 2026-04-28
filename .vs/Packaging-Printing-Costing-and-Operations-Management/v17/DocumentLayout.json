@@ -3,84 +3,76 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\software stuff\\Packaging-Printing-Costing-and-Operations-Management\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|c:\\users\\admin\\onedrive\\m\u00E1y t\u00EDnh\\software stuff\\packaging-printing-costing-and-operations-management\\ui\\controls\\calculatecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|solutionrelative:ui\\controls\\calculatecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|c:\\users\\admin\\onedrive\\m\u00E1y t\u00EDnh\\software stuff\\packaging-printing-costing-and-operations-management\\services\\quotationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|solutionrelative:services\\quotationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|c:\\users\\admin\\onedrive\\m\u00E1y t\u00EDnh\\software stuff\\packaging-printing-costing-and-operations-management\\services\\calculatorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|solutionrelative:services\\calculatorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|c:\\users\\admin\\onedrive\\m\u00E1y t\u00EDnh\\software stuff\\packaging-printing-costing-and-operations-management\\data\\quotationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|solutionrelative:data\\quotationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|c:\\users\\admin\\onedrive\\m\u00E1y t\u00EDnh\\software stuff\\packaging-printing-costing-and-operations-management\\data\\create_tables.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|solutionrelative:data\\create_tables.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|c:\\users\\admin\\onedrive\\m\u00E1y t\u00EDnh\\software stuff\\packaging-printing-costing-and-operations-management\\models\\papertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|solutionrelative:models\\papertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|c:\\users\\admin\\onedrive\\m\u00E1y t\u00EDnh\\software stuff\\packaging-printing-costing-and-operations-management\\models\\material.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|solutionrelative:models\\material.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|c:\\users\\admin\\onedrive\\m\u00E1y t\u00EDnh\\software stuff\\packaging-printing-costing-and-operations-management\\data\\create_procedures.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|solutionrelative:data\\create_procedures.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|c:\\users\\admin\\onedrive\\m\u00E1y t\u00EDnh\\software stuff\\packaging-printing-costing-and-operations-management\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|c:\\users\\admin\\onedrive\\m\u00E1y t\u00EDnh\\software stuff\\packaging-printing-costing-and-operations-management\\ui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|solutionrelative:ui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|c:\\users\\admin\\onedrive\\m\u00E1y t\u00EDnh\\software stuff\\packaging-printing-costing-and-operations-management\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|solutionrelative:packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\software stuff\\Packaging-Printing-Costing-and-Operations-Management\\ui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|solutionrelative:ui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|c:\\users\\admin\\onedrive\\m\u00E1y t\u00EDnh\\software stuff\\packaging-printing-costing-and-operations-management\\data\\databaseinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|solutionrelative:data\\databaseinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|c:\\users\\admin\\onedrive\\m\u00E1y t\u00EDnh\\software stuff\\packaging-printing-costing-and-operations-management\\ui\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|solutionrelative:ui\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|c:\\users\\admin\\onedrive\\m\u00E1y t\u00EDnh\\software stuff\\packaging-printing-costing-and-operations-management\\data\\create_functions.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|solutionrelative:data\\create_functions.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|c:\\users\\admin\\onedrive\\m\u00E1y t\u00EDnh\\software stuff\\packaging-printing-costing-and-operations-management\\ui\\otpui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|solutionrelative:ui\\otpui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|c:\\users\\admin\\onedrive\\m\u00E1y t\u00EDnh\\software stuff\\packaging-printing-costing-and-operations-management\\data\\create_insertion.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|solutionrelative:data\\create_insertion.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|c:\\users\\admin\\onedrive\\m\u00E1y t\u00EDnh\\software stuff\\packaging-printing-costing-and-operations-management\\ui\\formroleselectionui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|solutionrelative:ui\\formroleselectionui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\software stuff\\Packaging-Printing-Costing-and-Operations-Management\\ui\\formforgotpasswordui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|solutionrelative:ui\\formforgotpasswordui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|c:\\users\\admin\\onedrive\\m\u00E1y t\u00EDnh\\software stuff\\packaging-printing-costing-and-operations-management\\ui\\formloginui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|solutionrelative:ui\\formloginui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\software stuff\\Packaging-Printing-Costing-and-Operations-Management\\ui\\formedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|solutionrelative:ui\\formedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|c:\\users\\admin\\onedrive\\m\u00E1y t\u00EDnh\\software stuff\\packaging-printing-costing-and-operations-management\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|solutionrelative:properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|c:\\users\\admin\\onedrive\\m\u00E1y t\u00EDnh\\software stuff\\packaging-printing-costing-and-operations-management\\properties\\settings.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|solutionrelative:properties\\settings.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|c:\\users\\admin\\onedrive\\m\u00E1y t\u00EDnh\\software stuff\\packaging-printing-costing-and-operations-management\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
-      "RelativeMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|solutionrelative:properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|c:\\users\\admin\\onedrive\\m\u00E1y t\u00EDnh\\software stuff\\packaging-printing-costing-and-operations-management\\ui\\controls\\employeecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|solutionrelative:ui\\controls\\employeecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|c:\\users\\admin\\onedrive\\m\u00E1y t\u00EDnh\\software stuff\\packaging-printing-costing-and-operations-management\\properties\\resources.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|solutionrelative:properties\\resources.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|c:\\users\\admin\\onedrive\\m\u00E1y t\u00EDnh\\software stuff\\packaging-printing-costing-and-operations-management\\properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
-      "RelativeMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|solutionrelative:properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|c:\\users\\admin\\onedrive\\m\u00E1y t\u00EDnh\\software stuff\\packaging-printing-costing-and-operations-management\\ui\\controls\\employeecontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|solutionrelative:ui\\controls\\employeecontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|c:\\users\\admin\\onedrive\\m\u00E1y t\u00EDnh\\software stuff\\packaging-printing-costing-and-operations-management\\ui\\controls\\dashboardcontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|solutionrelative:ui\\controls\\dashboardcontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\software stuff\\Packaging-Printing-Costing-and-Operations-Management\\ui\\formedit.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|solutionrelative:ui\\formedit.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\software stuff\\Packaging-Printing-Costing-and-Operations-Management\\ui\\formadd.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|c:\\users\\admin\\onedrive\\m\u00E1y t\u00EDnh\\software stuff\\packaging-printing-costing-and-operations-management\\ui\\formadd.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|solutionrelative:ui\\formadd.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\software stuff\\Packaging-Printing-Costing-and-Operations-Management\\ui\\formadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|solutionrelative:ui\\formadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|c:\\users\\admin\\onedrive\\m\u00E1y t\u00EDnh\\software stuff\\packaging-printing-costing-and-operations-management\\data\\create_tables.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|solutionrelative:data\\create_tables.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|c:\\users\\admin\\onedrive\\m\u00E1y t\u00EDnh\\software stuff\\packaging-printing-costing-and-operations-management\\data\\create_procedures.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|solutionrelative:data\\create_procedures.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|c:\\users\\admin\\onedrive\\m\u00E1y t\u00EDnh\\software stuff\\packaging-printing-costing-and-operations-management\\data\\create_functions.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|solutionrelative:data\\create_functions.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|c:\\users\\admin\\onedrive\\m\u00E1y t\u00EDnh\\software stuff\\packaging-printing-costing-and-operations-management\\data\\create_insertion.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|solutionrelative:data\\create_insertion.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -90,7 +82,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 156,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -122,254 +114,180 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CalculateControl.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\software stuff\\Packaging-Printing-Costing-and-Operations-Management\\UI\\Controls\\CalculateControl.cs",
+              "RelativeDocumentMoniker": "UI\\Controls\\CalculateControl.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\software stuff\\Packaging-Printing-Costing-and-Operations-Management\\UI\\Controls\\CalculateControl.cs [Design]",
+              "RelativeToolTip": "UI\\Controls\\CalculateControl.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T15:21:22.421Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MainForm.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\software stuff\\Packaging-Printing-Costing-and-Operations-Management\\UI\\MainForm.cs",
-              "RelativeDocumentMoniker": "UI\\MainForm.cs",
-              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\software stuff\\Packaging-Printing-Costing-and-Operations-Management\\UI\\MainForm.cs",
-              "RelativeToolTip": "UI\\MainForm.cs",
-              "ViewState": "AgIAAMIAAAAAAAAAAADwv+UAAAAAAAAAAAAAAA==",
+              "Title": "QuotationService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\software stuff\\Packaging-Printing-Costing-and-Operations-Management\\Services\\QuotationService.cs",
+              "RelativeDocumentMoniker": "Services\\QuotationService.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\software stuff\\Packaging-Printing-Costing-and-Operations-Management\\Services\\QuotationService.cs",
+              "RelativeToolTip": "Services\\QuotationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-27T05:54:14.158Z",
+              "WhenOpened": "2026-04-28T15:21:12.674Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "otpUI.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\software stuff\\Packaging-Printing-Costing-and-Operations-Management\\UI\\otpUI.cs",
-              "RelativeDocumentMoniker": "UI\\otpUI.cs",
-              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\software stuff\\Packaging-Printing-Costing-and-Operations-Management\\UI\\otpUI.cs [Design]",
-              "RelativeToolTip": "UI\\otpUI.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-27T05:52:56.405Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FormRoleSelectionUI.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\software stuff\\Packaging-Printing-Costing-and-Operations-Management\\UI\\FormRoleSelectionUI.cs",
-              "RelativeDocumentMoniker": "UI\\FormRoleSelectionUI.cs",
-              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\software stuff\\Packaging-Printing-Costing-and-Operations-Management\\UI\\FormRoleSelectionUI.cs [Design]",
-              "RelativeToolTip": "UI\\FormRoleSelectionUI.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-27T05:45:21.513Z",
-              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MainForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\software stuff\\Packaging-Printing-Costing-and-Operations-Management\\UI\\MainForm.cs",
-              "RelativeDocumentMoniker": "UI\\MainForm.cs",
-              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\software stuff\\Packaging-Printing-Costing-and-Operations-Management\\UI\\MainForm.cs [Design]",
-              "RelativeToolTip": "UI\\MainForm.cs [Design]",
+              "Title": "CalculatorService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\software stuff\\Packaging-Printing-Costing-and-Operations-Management\\Services\\CalculatorService.cs",
+              "RelativeDocumentMoniker": "Services\\CalculatorService.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\software stuff\\Packaging-Printing-Costing-and-Operations-Management\\Services\\CalculatorService.cs",
+              "RelativeToolTip": "Services\\CalculatorService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-27T05:33:44.243Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\software stuff\\Packaging-Printing-Costing-and-Operations-Management\\UI\\MainForm.Designer.cs",
-              "RelativeDocumentMoniker": "UI\\MainForm.Designer.cs",
-              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\software stuff\\Packaging-Printing-Costing-and-Operations-Management\\UI\\MainForm.Designer.cs",
-              "RelativeToolTip": "UI\\MainForm.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-27T05:41:58.691Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\software stuff\\Packaging-Printing-Costing-and-Operations-Management\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\software stuff\\Packaging-Printing-Costing-and-Operations-Management\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-27T05:40:55.209Z",
+              "WhenOpened": "2026-04-28T15:21:03.832Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "FormForgotPasswordUI.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\software stuff\\Packaging-Printing-Costing-and-Operations-Management\\UI\\FormForgotPasswordUI.cs",
-              "RelativeDocumentMoniker": "UI\\FormForgotPasswordUI.cs",
-              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\software stuff\\Packaging-Printing-Costing-and-Operations-Management\\UI\\FormForgotPasswordUI.cs [Design]",
-              "RelativeToolTip": "UI\\FormForgotPasswordUI.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-27T05:33:25.461Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "FormLoginUI.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\software stuff\\Packaging-Printing-Costing-and-Operations-Management\\UI\\FormLoginUI.cs",
-              "RelativeDocumentMoniker": "UI\\FormLoginUI.cs",
-              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\software stuff\\Packaging-Printing-Costing-and-Operations-Management\\UI\\FormLoginUI.cs [Design]",
-              "RelativeToolTip": "UI\\FormLoginUI.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-27T05:45:20.536Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "FormEdit.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\software stuff\\Packaging-Printing-Costing-and-Operations-Management\\UI\\FormEdit.cs",
-              "RelativeDocumentMoniker": "UI\\FormEdit.cs",
-              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\software stuff\\Packaging-Printing-Costing-and-Operations-Management\\UI\\FormEdit.cs [Design]",
-              "RelativeToolTip": "UI\\FormEdit.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-27T05:32:54.409Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AssemblyInfo.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\software stuff\\Packaging-Printing-Costing-and-Operations-Management\\Properties\\AssemblyInfo.cs",
-              "RelativeDocumentMoniker": "Properties\\AssemblyInfo.cs",
-              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\software stuff\\Packaging-Printing-Costing-and-Operations-Management\\Properties\\AssemblyInfo.cs",
-              "RelativeToolTip": "Properties\\AssemblyInfo.cs",
+              "Title": "Material.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\software stuff\\Packaging-Printing-Costing-and-Operations-Management\\Models\\Material.cs",
+              "RelativeDocumentMoniker": "Models\\Material.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\software stuff\\Packaging-Printing-Costing-and-Operations-Management\\Models\\Material.cs",
+              "RelativeToolTip": "Models\\Material.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-27T05:49:50.941Z",
+              "WhenOpened": "2026-04-28T15:16:52.239Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Settings.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\software stuff\\Packaging-Printing-Costing-and-Operations-Management\\Properties\\Settings.Designer.cs",
-              "RelativeDocumentMoniker": "Properties\\Settings.Designer.cs",
-              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\software stuff\\Packaging-Printing-Costing-and-Operations-Management\\Properties\\Settings.Designer.cs",
-              "RelativeToolTip": "Properties\\Settings.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "PaperType.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\software stuff\\Packaging-Printing-Costing-and-Operations-Management\\Models\\PaperType.cs",
+              "RelativeDocumentMoniker": "Models\\PaperType.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\software stuff\\Packaging-Printing-Costing-and-Operations-Management\\Models\\PaperType.cs",
+              "RelativeToolTip": "Models\\PaperType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-27T05:49:14.01Z",
+              "WhenOpened": "2026-04-28T15:16:45.247Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Settings.settings",
-              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\software stuff\\Packaging-Printing-Costing-and-Operations-Management\\Properties\\Settings.settings",
-              "RelativeDocumentMoniker": "Properties\\Settings.settings",
-              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\software stuff\\Packaging-Printing-Costing-and-Operations-Management\\Properties\\Settings.settings",
-              "RelativeToolTip": "Properties\\Settings.settings",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002767|",
-              "WhenOpened": "2026-04-27T05:49:11.687Z",
+              "DocumentIndex": 3,
+              "Title": "QuotationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\software stuff\\Packaging-Printing-Costing-and-Operations-Management\\Data\\QuotationRepository.cs",
+              "RelativeDocumentMoniker": "Data\\QuotationRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\software stuff\\Packaging-Printing-Costing-and-Operations-Management\\Data\\QuotationRepository.cs",
+              "RelativeToolTip": "Data\\QuotationRepository.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAewFYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T14:59:06.739Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "Resources.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\software stuff\\Packaging-Printing-Costing-and-Operations-Management\\Properties\\Resources.Designer.cs",
-              "RelativeDocumentMoniker": "Properties\\Resources.Designer.cs",
-              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\software stuff\\Packaging-Printing-Costing-and-Operations-Management\\Properties\\Resources.Designer.cs",
-              "RelativeToolTip": "Properties\\Resources.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-27T05:43:12.964Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "EmployeeControl.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\software stuff\\Packaging-Printing-Costing-and-Operations-Management\\UI\\Controls\\EmployeeControl.cs",
-              "RelativeDocumentMoniker": "UI\\Controls\\EmployeeControl.cs",
-              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\software stuff\\Packaging-Printing-Costing-and-Operations-Management\\UI\\Controls\\EmployeeControl.cs",
-              "RelativeToolTip": "UI\\Controls\\EmployeeControl.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAADgvxcAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-27T05:41:18.268Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Resources.resx",
-              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\software stuff\\Packaging-Printing-Costing-and-Operations-Management\\Properties\\Resources.resx",
-              "RelativeDocumentMoniker": "Properties\\Resources.resx",
-              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\software stuff\\Packaging-Printing-Costing-and-Operations-Management\\Properties\\Resources.resx",
-              "RelativeToolTip": "Properties\\Resources.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2026-04-27T05:43:10.042Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "EmployeeControl.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\software stuff\\Packaging-Printing-Costing-and-Operations-Management\\UI\\Controls\\EmployeeControl.Designer.cs",
-              "RelativeDocumentMoniker": "UI\\Controls\\EmployeeControl.Designer.cs",
-              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\software stuff\\Packaging-Printing-Costing-and-Operations-Management\\UI\\Controls\\EmployeeControl.Designer.cs",
-              "RelativeToolTip": "UI\\Controls\\EmployeeControl.Designer.cs",
-              "ViewState": "AgIAAG4AAAAAAAAAAAAhwH4AAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-27T05:41:56.812Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "DashboardControl.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\software stuff\\Packaging-Printing-Costing-and-Operations-Management\\UI\\Controls\\DashboardControl.Designer.cs",
-              "RelativeDocumentMoniker": "UI\\Controls\\DashboardControl.Designer.cs",
-              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\software stuff\\Packaging-Printing-Costing-and-Operations-Management\\UI\\Controls\\DashboardControl.Designer.cs",
-              "RelativeToolTip": "UI\\Controls\\DashboardControl.Designer.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAASwB0AAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-27T05:34:03.581Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "FormEdit.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\software stuff\\Packaging-Printing-Costing-and-Operations-Management\\UI\\FormEdit.Designer.cs",
-              "RelativeDocumentMoniker": "UI\\FormEdit.Designer.cs",
-              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\software stuff\\Packaging-Printing-Costing-and-Operations-Management\\UI\\FormEdit.Designer.cs",
-              "RelativeToolTip": "UI\\FormEdit.Designer.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-27T05:33:20.853Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
               "Title": "FormAdd.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\software stuff\\Packaging-Printing-Costing-and-Operations-Management\\UI\\FormAdd.Designer.cs",
               "RelativeDocumentMoniker": "UI\\FormAdd.Designer.cs",
               "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\software stuff\\Packaging-Printing-Costing-and-Operations-Management\\UI\\FormAdd.Designer.cs",
               "RelativeToolTip": "UI\\FormAdd.Designer.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwCIAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAACUBAAAAAAAAAAAIwDgBAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-27T05:33:07.934Z",
+              "WhenOpened": "2026-04-28T14:48:07.146Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "FormAdd.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\software stuff\\Packaging-Printing-Costing-and-Operations-Management\\UI\\FormAdd.cs",
-              "RelativeDocumentMoniker": "UI\\FormAdd.cs",
-              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\software stuff\\Packaging-Printing-Costing-and-Operations-Management\\UI\\FormAdd.cs [Design]",
-              "RelativeToolTip": "UI\\FormAdd.cs [Design]",
+              "DocumentIndex": 10,
+              "Title": "DatabaseInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\software stuff\\Packaging-Printing-Costing-and-Operations-Management\\Data\\DatabaseInitializer.cs",
+              "RelativeDocumentMoniker": "Data\\DatabaseInitializer.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\software stuff\\Packaging-Printing-Costing-and-Operations-Management\\Data\\DatabaseInitializer.cs",
+              "RelativeToolTip": "Data\\DatabaseInitializer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-27T05:32:54.646Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-04-28T14:30:39.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "create_insertion.sql ",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\software stuff\\Packaging-Printing-Costing-and-Operations-Management\\Data\\create_insertion.sql",
+              "RelativeDocumentMoniker": "Data\\create_insertion.sql",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\software stuff\\Packaging-Printing-Costing-and-Operations-Management\\Data\\create_insertion.sql",
+              "RelativeToolTip": "Data\\create_insertion.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-04-28T14:19:10.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "create_tables.sql ",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\software stuff\\Packaging-Printing-Costing-and-Operations-Management\\Data\\create_tables.sql",
+              "RelativeDocumentMoniker": "Data\\create_tables.sql",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\software stuff\\Packaging-Printing-Costing-and-Operations-Management\\Data\\create_tables.sql",
+              "RelativeToolTip": "Data\\create_tables.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-04-28T14:17:40.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\software stuff\\Packaging-Printing-Costing-and-Operations-Management\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\software stuff\\Packaging-Printing-Costing-and-Operations-Management\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAADMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T14:49:15.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "create_functions.sql ",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\software stuff\\Packaging-Printing-Costing-and-Operations-Management\\Data\\create_functions.sql",
+              "RelativeDocumentMoniker": "Data\\create_functions.sql",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\software stuff\\Packaging-Printing-Costing-and-Operations-Management\\Data\\create_functions.sql",
+              "RelativeToolTip": "Data\\create_functions.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-04-28T14:19:04.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "create_procedures.sql ",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\software stuff\\Packaging-Printing-Costing-and-Operations-Management\\Data\\create_procedures.sql",
+              "RelativeDocumentMoniker": "Data\\create_procedures.sql",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\software stuff\\Packaging-Printing-Costing-and-Operations-Management\\Data\\create_procedures.sql",
+              "RelativeToolTip": "Data\\create_procedures.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-04-28T14:18:30.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\software stuff\\Packaging-Printing-Costing-and-Operations-Management\\packages.config",
+              "RelativeDocumentMoniker": "packages.config",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\software stuff\\Packaging-Printing-Costing-and-Operations-Management\\packages.config",
+              "RelativeToolTip": "packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-04-28T15:04:08.028Z",
+              "EditorCaption": ""
             }
           ]
         }

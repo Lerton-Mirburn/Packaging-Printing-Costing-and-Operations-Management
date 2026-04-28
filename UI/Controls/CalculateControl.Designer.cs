@@ -81,7 +81,6 @@ namespace PPCOM.Controls
             this.lblCustomerProductPrice = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
-            this.cbPaperType = new System.Windows.Forms.ComboBox();
             this.label22 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
@@ -114,6 +113,8 @@ namespace PPCOM.Controls
             this.txtExpiry = new System.Windows.Forms.TextBox();
             this.txtDeliveryTime = new System.Windows.Forms.TextBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.cbPaperType = new System.Windows.Forms.ComboBox();
             this.tableLayoutPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numDieCuttingFrameCost)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numUvFrameCost)).BeginInit();
@@ -133,6 +134,7 @@ namespace PPCOM.Controls
             ((System.ComponentModel.ISupportInitialize)(this.numProdY)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numProdZ)).BeginInit();
             this.panel2.SuspendLayout();
+            this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -305,11 +307,11 @@ namespace PPCOM.Controls
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(26, 150);
+            this.label12.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
+            this.label12.Location = new System.Drawing.Point(26, 135);
             this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(163, 15);
+            this.label12.Size = new System.Drawing.Size(151, 13);
             this.label12.TabIndex = 22;
             this.label12.Text = "THÔNG SỐ GIẤY VÀ VẬT TƯ";
             // 
@@ -771,24 +773,12 @@ namespace PPCOM.Controls
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
-            // cbPaperType
-            // 
-            this.cbPaperType.Dock = System.Windows.Forms.DockStyle.Top;
-            this.cbPaperType.FormattingEnabled = true;
-            this.cbPaperType.Items.AddRange(new object[] {
-            "Ivory 400"});
-            this.cbPaperType.Location = new System.Drawing.Point(351, 26);
-            this.cbPaperType.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.cbPaperType.Name = "cbPaperType";
-            this.cbPaperType.Size = new System.Drawing.Size(347, 21);
-            this.cbPaperType.TabIndex = 37;
-            // 
             // label22
             // 
             this.label22.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label22.AutoSize = true;
             this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(129, 157);
+            this.label22.Location = new System.Drawing.Point(129, 180);
             this.label22.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(89, 16);
@@ -800,7 +790,7 @@ namespace PPCOM.Controls
             this.label21.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label21.AutoSize = true;
             this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(149, 135);
+            this.label21.Location = new System.Drawing.Point(149, 155);
             this.label21.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(49, 16);
@@ -812,7 +802,7 @@ namespace PPCOM.Controls
             this.label20.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label20.AutoSize = true;
             this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(152, 113);
+            this.label20.Location = new System.Drawing.Point(152, 130);
             this.label20.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(43, 16);
@@ -824,7 +814,7 @@ namespace PPCOM.Controls
             this.label19.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label19.AutoSize = true;
             this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(149, 91);
+            this.label19.Location = new System.Drawing.Point(149, 105);
             this.label19.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(49, 16);
@@ -836,7 +826,7 @@ namespace PPCOM.Controls
             this.label18.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label18.AutoSize = true;
             this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(140, 69);
+            this.label18.Location = new System.Drawing.Point(140, 80);
             this.label18.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(66, 16);
@@ -849,7 +839,7 @@ namespace PPCOM.Controls
             this.label13.AutoSize = true;
             this.label13.BackColor = System.Drawing.Color.Transparent;
             this.label13.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(134, 4);
+            this.label13.Location = new System.Drawing.Point(134, 5);
             this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(78, 15);
@@ -862,7 +852,7 @@ namespace PPCOM.Controls
             this.label14.AutoSize = true;
             this.label14.BackColor = System.Drawing.Color.Transparent;
             this.label14.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(490, 4);
+            this.label14.Location = new System.Drawing.Point(490, 5);
             this.label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(69, 15);
@@ -875,7 +865,7 @@ namespace PPCOM.Controls
             this.label15.AutoSize = true;
             this.label15.BackColor = System.Drawing.Color.Transparent;
             this.label15.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(837, 4);
+            this.label15.Location = new System.Drawing.Point(837, 5);
             this.label15.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(78, 15);
@@ -887,7 +877,7 @@ namespace PPCOM.Controls
             this.label16.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(142, 25);
+            this.label16.Location = new System.Drawing.Point(142, 30);
             this.label16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(62, 16);
@@ -899,7 +889,7 @@ namespace PPCOM.Controls
             this.label17.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(129, 47);
+            this.label17.Location = new System.Drawing.Point(129, 55);
             this.label17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(88, 16);
@@ -908,14 +898,13 @@ namespace PPCOM.Controls
             // 
             // lblSheetCost
             // 
+            this.lblSheetCost.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.lblSheetCost.AutoSize = true;
-            this.tableLayoutPanel1.SetColumnSpan(this.lblSheetCost, 3);
-            this.lblSheetCost.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblSheetCost.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSheetCost.Location = new System.Drawing.Point(5, 177);
+            this.lblSheetCost.Location = new System.Drawing.Point(4, 4);
             this.lblSheetCost.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblSheetCost.Name = "lblSheetCost";
-            this.lblSheetCost.Size = new System.Drawing.Size(1041, 25);
+            this.lblSheetCost.Size = new System.Drawing.Size(109, 15);
             this.lblSheetCost.TabIndex = 41;
             this.lblSheetCost.Text = "THÀNH TIỀN GIẤY";
             // 
@@ -927,11 +916,9 @@ namespace PPCOM.Controls
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 34F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33F));
-            this.tableLayoutPanel1.Controls.Add(this.panel1, 1, 5);
             this.tableLayoutPanel1.Controls.Add(this.numWasteSheet, 1, 6);
             this.tableLayoutPanel1.Controls.Add(this.numUnitsPerSheet, 1, 4);
             this.tableLayoutPanel1.Controls.Add(this.numColorAmount, 1, 3);
-            this.tableLayoutPanel1.Controls.Add(this.lblSheetCost, 0, 8);
             this.tableLayoutPanel1.Controls.Add(this.label17, 0, 2);
             this.tableLayoutPanel1.Controls.Add(this.label16, 0, 1);
             this.tableLayoutPanel1.Controls.Add(this.label15, 2, 0);
@@ -942,12 +929,14 @@ namespace PPCOM.Controls
             this.tableLayoutPanel1.Controls.Add(this.label20, 0, 5);
             this.tableLayoutPanel1.Controls.Add(this.label21, 0, 6);
             this.tableLayoutPanel1.Controls.Add(this.label22, 0, 7);
-            this.tableLayoutPanel1.Controls.Add(this.cbPaperType, 1, 1);
             this.tableLayoutPanel1.Controls.Add(this.lblRequired, 2, 7);
             this.tableLayoutPanel1.Controls.Add(this.lblPaperPricePerTon, 1, 2);
             this.tableLayoutPanel1.Controls.Add(this.lblRamCost, 2, 2);
+            this.tableLayoutPanel1.Controls.Add(this.panel1, 1, 5);
+            this.tableLayoutPanel1.Controls.Add(this.panel3, 0, 8);
+            this.tableLayoutPanel1.Controls.Add(this.cbPaperType, 1, 1);
             this.tableLayoutPanel1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(30, 170);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(30, 155);
             this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 9;
@@ -960,7 +949,7 @@ namespace PPCOM.Controls
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1051, 203);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1051, 229);
             this.tableLayoutPanel1.TabIndex = 24;
             // 
             // panel1
@@ -968,17 +957,17 @@ namespace PPCOM.Controls
             this.panel1.Controls.Add(this.numLength2);
             this.panel1.Controls.Add(this.numWidth2);
             this.panel1.Controls.Add(this.label47);
-            this.panel1.Location = new System.Drawing.Point(351, 114);
+            this.panel1.Location = new System.Drawing.Point(351, 129);
             this.panel1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(347, 15);
+            this.panel1.Size = new System.Drawing.Size(347, 18);
             this.panel1.TabIndex = 70;
             // 
             // numLength2
             // 
             this.numLength2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.numLength2.Location = new System.Drawing.Point(-4, -3);
+            this.numLength2.Location = new System.Drawing.Point(-2, -3);
             this.numLength2.Margin = new System.Windows.Forms.Padding(2);
             this.numLength2.Name = "numLength2";
             this.numLength2.Size = new System.Drawing.Size(61, 22);
@@ -989,7 +978,7 @@ namespace PPCOM.Controls
             // 
             this.numWidth2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.numWidth2.Location = new System.Drawing.Point(75, -3);
+            this.numWidth2.Location = new System.Drawing.Point(77, -3);
             this.numWidth2.Margin = new System.Windows.Forms.Padding(2);
             this.numWidth2.Name = "numWidth2";
             this.numWidth2.Size = new System.Drawing.Size(61, 22);
@@ -1001,7 +990,7 @@ namespace PPCOM.Controls
             this.label47.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.label47.AutoSize = true;
-            this.label47.Location = new System.Drawing.Point(59, -2);
+            this.label47.Location = new System.Drawing.Point(61, -2);
             this.label47.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label47.Name = "label47";
             this.label47.Size = new System.Drawing.Size(12, 13);
@@ -1013,7 +1002,7 @@ namespace PPCOM.Controls
             // 
             this.numWasteSheet.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.numWasteSheet.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.numWasteSheet.Location = new System.Drawing.Point(349, 135);
+            this.numWasteSheet.Location = new System.Drawing.Point(349, 155);
             this.numWasteSheet.Margin = new System.Windows.Forms.Padding(2);
             this.numWasteSheet.Maximum = new decimal(new int[] {
             10000,
@@ -1028,7 +1017,7 @@ namespace PPCOM.Controls
             // 
             this.numUnitsPerSheet.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.numUnitsPerSheet.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.numUnitsPerSheet.Location = new System.Drawing.Point(349, 91);
+            this.numUnitsPerSheet.Location = new System.Drawing.Point(349, 103);
             this.numUnitsPerSheet.Margin = new System.Windows.Forms.Padding(2);
             this.numUnitsPerSheet.Name = "numUnitsPerSheet";
             this.numUnitsPerSheet.Size = new System.Drawing.Size(351, 18);
@@ -1038,7 +1027,7 @@ namespace PPCOM.Controls
             // 
             this.numColorAmount.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.numColorAmount.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.numColorAmount.Location = new System.Drawing.Point(349, 69);
+            this.numColorAmount.Location = new System.Drawing.Point(349, 78);
             this.numColorAmount.Margin = new System.Windows.Forms.Padding(2);
             this.numColorAmount.Name = "numColorAmount";
             this.numColorAmount.Size = new System.Drawing.Size(351, 18);
@@ -1049,10 +1038,10 @@ namespace PPCOM.Controls
             this.lblRequired.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.lblRequired.AutoSize = true;
-            this.lblRequired.Location = new System.Drawing.Point(705, 155);
+            this.lblRequired.Location = new System.Drawing.Point(705, 176);
             this.lblRequired.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblRequired.Name = "lblRequired";
-            this.lblRequired.Size = new System.Drawing.Size(74, 21);
+            this.lblRequired.Size = new System.Drawing.Size(74, 24);
             this.lblRequired.TabIndex = 43;
             this.lblRequired.Text = "=> Cần mua:";
             this.lblRequired.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -1060,10 +1049,10 @@ namespace PPCOM.Controls
             // lblPaperPricePerTon
             // 
             this.lblPaperPricePerTon.Dock = System.Windows.Forms.DockStyle.Left;
-            this.lblPaperPricePerTon.Location = new System.Drawing.Point(351, 45);
+            this.lblPaperPricePerTon.Location = new System.Drawing.Point(351, 51);
             this.lblPaperPricePerTon.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPaperPricePerTon.Name = "lblPaperPricePerTon";
-            this.lblPaperPricePerTon.Size = new System.Drawing.Size(347, 21);
+            this.lblPaperPricePerTon.Size = new System.Drawing.Size(347, 24);
             this.lblPaperPricePerTon.TabIndex = 71;
             // 
             // lblRamCost
@@ -1071,10 +1060,10 @@ namespace PPCOM.Controls
             this.lblRamCost.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.lblRamCost.AutoSize = true;
-            this.lblRamCost.Location = new System.Drawing.Point(705, 45);
+            this.lblRamCost.Location = new System.Drawing.Point(705, 51);
             this.lblRamCost.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblRamCost.Name = "lblRamCost";
-            this.lblRamCost.Size = new System.Drawing.Size(124, 21);
+            this.lblRamCost.Size = new System.Drawing.Size(124, 24);
             this.lblRamCost.TabIndex = 42;
             this.lblRamCost.Text = "=> Giá / Ram: ............đ";
             this.lblRamCost.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -1184,6 +1173,27 @@ namespace PPCOM.Controls
             this.panel2.Size = new System.Drawing.Size(797, 42);
             this.panel2.TabIndex = 72;
             // 
+            // panel3
+            // 
+            this.tableLayoutPanel1.SetColumnSpan(this.panel3, 3);
+            this.panel3.Controls.Add(this.lblSheetCost);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel3.Location = new System.Drawing.Point(4, 204);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(1043, 21);
+            this.panel3.TabIndex = 72;
+            // 
+            // cbPaperType
+            // 
+            this.cbPaperType.Dock = System.Windows.Forms.DockStyle.Top;
+            this.cbPaperType.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cbPaperType.FormattingEnabled = true;
+            this.cbPaperType.Location = new System.Drawing.Point(351, 29);
+            this.cbPaperType.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.cbPaperType.Name = "cbPaperType";
+            this.cbPaperType.Size = new System.Drawing.Size(347, 21);
+            this.cbPaperType.TabIndex = 37;
+            // 
             // CalculateControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
@@ -1262,6 +1272,8 @@ namespace PPCOM.Controls
             ((System.ComponentModel.ISupportInitialize)(this.numProdZ)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1316,7 +1328,6 @@ namespace PPCOM.Controls
 
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.ComboBox cbPaperType;
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Label label20;
@@ -1357,5 +1368,7 @@ namespace PPCOM.Controls
         private System.Windows.Forms.TextBox txtExpiry;
         private System.Windows.Forms.TextBox txtDeliveryTime;
         private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.ComboBox cbPaperType;
     }
 }
