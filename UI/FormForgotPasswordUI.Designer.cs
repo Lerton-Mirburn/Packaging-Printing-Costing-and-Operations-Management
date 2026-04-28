@@ -84,6 +84,7 @@ namespace LoginSystem
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.Size = new System.Drawing.Size(40, 54);
             this.guna2Button1.TabIndex = 25;
+            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // MaximizeBox
             // 
@@ -150,6 +151,7 @@ namespace LoginSystem
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
             this.pictureBox5.Location = new System.Drawing.Point(707, 12);
             this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox5.Size = new System.Drawing.Size(52, 32);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox5.TabIndex = 24;
@@ -161,6 +163,7 @@ namespace LoginSystem
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(765, 25);
             this.label1.Name = "label1";
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.Size = new System.Drawing.Size(126, 16);
             this.label1.TabIndex = 17;
             this.label1.Text = "Tên công ty| Đơn vị: ";
@@ -203,6 +206,7 @@ namespace LoginSystem
             this.pnlForgotContent.Controls.Add(this.label7);
             this.pnlForgotContent.Controls.Add(this.label6);
             this.pnlForgotContent.Controls.Add(this.label2);
+            this.pnlForgotContent.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pnlForgotContent.Location = new System.Drawing.Point(275, 210);
             this.pnlForgotContent.Name = "pnlForgotContent";
             this.pnlForgotContent.Size = new System.Drawing.Size(450, 400);
@@ -274,6 +278,7 @@ namespace LoginSystem
             this.btnReset.Size = new System.Drawing.Size(438, 45);
             this.btnReset.TabIndex = 4;
             this.btnReset.Text = "Reset Password";
+            this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
             // 
             // FormForgotPasswordUI
             // 

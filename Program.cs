@@ -1,4 +1,4 @@
-﻿using PPCOM;
+using PPCOM;
 using PPCOM.Data;
 using System;
 using System.Collections.Generic;
@@ -53,7 +53,7 @@ namespace Packaging_Printing_Costing_and_Operations_Management
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MainForm());
+            Application.Run(new LoginSystem.FormRoleSelection());
         }
     }
 }

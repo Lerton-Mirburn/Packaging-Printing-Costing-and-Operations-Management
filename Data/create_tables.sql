@@ -1,4 +1,4 @@
-﻿USE PPCOM;
+USE PPCOM;
 GO
 
 CREATE TABLE Roles (

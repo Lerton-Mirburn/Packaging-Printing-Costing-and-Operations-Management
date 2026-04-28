@@ -1,0 +1,145 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Project_CNPM\\PPCOM_New\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|d:\\project_cnpm\\ppcom_new\\ui\\formforgotpasswordui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|solutionrelative:ui\\formforgotpasswordui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|D:\\Project_CNPM\\PPCOM_New\\data\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|solutionrelative:data\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|D:\\Project_CNPM\\PPCOM_New\\ui\\formroleselectionui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|solutionrelative:ui\\formroleselectionui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|D:\\Project_CNPM\\PPCOM_New\\ui\\formloginui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|solutionrelative:ui\\formloginui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|D:\\Project_CNPM\\PPCOM_New\\data\\create_tables.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|solutionrelative:data\\create_tables.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|D:\\Project_CNPM\\PPCOM_New\\data\\create_functions.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|solutionrelative:data\\create_functions.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|D:\\Project_CNPM\\PPCOM_New\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|solutionrelative:packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 156,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormForgotPasswordUI.cs",
+              "DocumentMoniker": "D:\\Project_CNPM\\PPCOM_New\\UI\\FormForgotPasswordUI.cs",
+              "RelativeDocumentMoniker": "UI\\FormForgotPasswordUI.cs",
+              "ToolTip": "D:\\Project_CNPM\\PPCOM_New\\UI\\FormForgotPasswordUI.cs",
+              "RelativeToolTip": "UI\\FormForgotPasswordUI.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAUwB0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T20:47:53.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\Project_CNPM\\PPCOM_New\\Data\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Data\\UserRepository.cs",
+              "ToolTip": "D:\\Project_CNPM\\PPCOM_New\\Data\\UserRepository.cs",
+              "RelativeToolTip": "Data\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T19:49:32.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormRoleSelectionUI.cs [Design]",
+              "DocumentMoniker": "D:\\Project_CNPM\\PPCOM_New\\UI\\FormRoleSelectionUI.cs",
+              "RelativeDocumentMoniker": "UI\\FormRoleSelectionUI.cs",
+              "ToolTip": "D:\\Project_CNPM\\PPCOM_New\\UI\\FormRoleSelectionUI.cs [Design]",
+              "RelativeToolTip": "UI\\FormRoleSelectionUI.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T19:29:33.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormLoginUI.cs [Design]",
+              "DocumentMoniker": "D:\\Project_CNPM\\PPCOM_New\\UI\\FormLoginUI.cs",
+              "RelativeDocumentMoniker": "UI\\FormLoginUI.cs",
+              "ToolTip": "D:\\Project_CNPM\\PPCOM_New\\UI\\FormLoginUI.cs [Design]",
+              "RelativeToolTip": "UI\\FormLoginUI.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T19:26:32.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "create_tables.sql ",
+              "DocumentMoniker": "D:\\Project_CNPM\\PPCOM_New\\Data\\create_tables.sql",
+              "RelativeDocumentMoniker": "Data\\create_tables.sql",
+              "ToolTip": "D:\\Project_CNPM\\PPCOM_New\\Data\\create_tables.sql",
+              "RelativeToolTip": "Data\\create_tables.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-04-28T19:04:26.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "create_functions.sql ",
+              "DocumentMoniker": "D:\\Project_CNPM\\PPCOM_New\\Data\\create_functions.sql",
+              "RelativeDocumentMoniker": "Data\\create_functions.sql",
+              "ToolTip": "D:\\Project_CNPM\\PPCOM_New\\Data\\create_functions.sql",
+              "RelativeToolTip": "Data\\create_functions.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-04-28T19:04:26.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "packages.config",
+              "DocumentMoniker": "D:\\Project_CNPM\\PPCOM_New\\packages.config",
+              "RelativeDocumentMoniker": "packages.config",
+              "ToolTip": "D:\\Project_CNPM\\PPCOM_New\\packages.config",
+              "RelativeToolTip": "packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-04-28T19:04:26.297Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

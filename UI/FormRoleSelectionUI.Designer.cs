@@ -80,6 +80,7 @@ namespace LoginSystem
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
             this.pictureBox5.Location = new System.Drawing.Point(707, 12);
             this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox5.Size = new System.Drawing.Size(52, 32);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox5.TabIndex = 24;
@@ -126,6 +127,7 @@ namespace LoginSystem
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(765, 25);
             this.label1.Name = "label1";
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.Size = new System.Drawing.Size(126, 16);
             this.label1.TabIndex = 17;
             this.label1.Text = "Tên công ty| Đơn vị: ";
@@ -184,10 +186,12 @@ namespace LoginSystem
             this.guna2Panel2.Controls.Add(this.label2);
             this.guna2Panel2.Controls.Add(this.pictureBox1);
             this.guna2Panel2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.guna2Panel2.Location = new System.Drawing.Point(250, 110);
+            this.guna2Panel2.Location = new System.Drawing.Point(230, 110);
             this.guna2Panel2.Name = "guna2Panel2";
-            this.guna2Panel2.Size = new System.Drawing.Size(500, 80);
+            this.guna2Panel2.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.guna2Panel2.Size = new System.Drawing.Size(540, 80);
             this.guna2Panel2.TabIndex = 21;
+            this.guna2Panel2.Visible = true;
             // 
             // btnCloseAlert
             // 
@@ -203,11 +207,12 @@ namespace LoginSystem
             this.btnCloseAlert.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(125)))), ((int)(((byte)(125)))));
             this.btnCloseAlert.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.btnCloseAlert.HoverState.ForeColor = System.Drawing.Color.Black;
-            this.btnCloseAlert.Location = new System.Drawing.Point(420, 0);
+            this.btnCloseAlert.Location = new System.Drawing.Point(440, 0);
             this.btnCloseAlert.Name = "btnCloseAlert";
-            this.btnCloseAlert.Size = new System.Drawing.Size(80, 80);
+            this.btnCloseAlert.Size = new System.Drawing.Size(100, 80);
             this.btnCloseAlert.TabIndex = 3;
             this.btnCloseAlert.Text = "CLOSE";
+            this.btnCloseAlert.Click += new System.EventHandler(this.btnCloseAlert_Click);
             // 
             // lblAlertContent
             // 
@@ -267,6 +272,7 @@ namespace LoginSystem
             this.btnAdmin.Size = new System.Drawing.Size(250, 50);
             this.btnAdmin.TabIndex = 1;
             this.btnAdmin.Text = "ADMIN";
+            this.btnAdmin.Click += new System.EventHandler(this.BtnAdmin_Click);
             // 
             // picAdmin
             // 
@@ -278,6 +284,7 @@ namespace LoginSystem
             this.picAdmin.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picAdmin.TabIndex = 0;
             this.picAdmin.TabStop = false;
+            this.picAdmin.Click += new System.EventHandler(this.BtnAdmin_Click);
             // 
             // guna2Panel4
             // 
@@ -305,6 +312,7 @@ namespace LoginSystem
             this.btnEmployee.Size = new System.Drawing.Size(250, 50);
             this.btnEmployee.TabIndex = 1;
             this.btnEmployee.Text = "Nhân viên";
+            this.btnEmployee.Click += new System.EventHandler(this.BtnEmloyee_Click);
             // 
             // picEmployee
             // 
@@ -316,6 +324,7 @@ namespace LoginSystem
             this.picEmployee.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picEmployee.TabIndex = 0;
             this.picEmployee.TabStop = false;
+            this.picEmployee.Click += new System.EventHandler(this.BtnEmloyee_Click);
             // 
             // FormRoleSelection
             // 

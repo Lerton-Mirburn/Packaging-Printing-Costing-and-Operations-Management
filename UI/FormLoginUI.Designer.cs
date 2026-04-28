@@ -135,6 +135,7 @@ namespace LoginSystem
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
             this.pictureBox5.Location = new System.Drawing.Point(707, 12);
             this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox5.Size = new System.Drawing.Size(52, 32);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox5.TabIndex = 24;
@@ -145,6 +146,7 @@ namespace LoginSystem
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(765, 25);
             this.label1.Name = "label1";
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.Size = new System.Drawing.Size(126, 16);
             this.label1.TabIndex = 17;
             this.label1.Text = "Tên công ty| Đơn vị: ";
@@ -207,6 +209,7 @@ namespace LoginSystem
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.Size = new System.Drawing.Size(40, 54);
             this.guna2Button1.TabIndex = 25;
+            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // PnLogin
             // 
@@ -286,6 +289,7 @@ namespace LoginSystem
             this.btnSignIn.Size = new System.Drawing.Size(330, 50);
             this.btnSignIn.TabIndex = 7;
             this.btnSignIn.Text = "Sign in";
+            this.btnSignIn.Click += new System.EventHandler(this.BtnSignin_Click);
             // 
             // linkLabel1
             // 
@@ -297,6 +301,7 @@ namespace LoginSystem
             this.linkLabel1.TabIndex = 6;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "Forgot Password";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // txtPassword
             // 
@@ -319,6 +324,7 @@ namespace LoginSystem
             this.txtPassword.SelectedText = "";
             this.txtPassword.Size = new System.Drawing.Size(330, 45);
             this.txtPassword.TabIndex = 5;
+            this.txtPassword.IconRightClick += new System.EventHandler(this.txtPassword_IconRightClick);
             // 
             // label8
             // 
@@ -385,7 +391,6 @@ namespace LoginSystem
             // 
             // guna2Panel2
             // 
-            this.guna2Panel2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.guna2Panel2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(124)))), ((int)(((byte)(124)))));
             this.guna2Panel2.BorderRadius = 10;
             this.guna2Panel2.BorderThickness = 1;
@@ -394,10 +399,12 @@ namespace LoginSystem
             this.guna2Panel2.Controls.Add(this.label11);
             this.guna2Panel2.Controls.Add(this.pictureBox1);
             this.guna2Panel2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.guna2Panel2.Location = new System.Drawing.Point(250, 65);
+            this.guna2Panel2.Location = new System.Drawing.Point(230, 65);
             this.guna2Panel2.Name = "guna2Panel2";
-            this.guna2Panel2.Size = new System.Drawing.Size(500, 80);
+            this.guna2Panel2.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.guna2Panel2.Size = new System.Drawing.Size(540, 80);
             this.guna2Panel2.TabIndex = 29;
+            this.guna2Panel2.Visible = false;
             // 
             // btnClose
             // 
@@ -413,11 +420,12 @@ namespace LoginSystem
             this.btnClose.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(125)))), ((int)(((byte)(125)))));
             this.btnClose.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.btnClose.HoverState.ForeColor = System.Drawing.Color.Black;
-            this.btnClose.Location = new System.Drawing.Point(420, 0);
+            this.btnClose.Location = new System.Drawing.Point(440, 0);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(80, 80);
+            this.btnClose.Size = new System.Drawing.Size(100, 80);
             this.btnClose.TabIndex = 3;
             this.btnClose.Text = "CLOSE";
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // label10
             // 

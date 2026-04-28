@@ -1,4 +1,4 @@
-﻿
+
 /* INSERT DATA */
 
 INSERT INTO Roles (role_name)

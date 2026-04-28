@@ -12,14 +12,14 @@ namespace LoginSystem
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            FormLoginUI loginForm = new FormLoginUI();
+            FormLoginUI loginForm = new FormLoginUI("Admin");
             loginForm.Show();
             this.Hide();
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-            FormLoginUI loginForm = new FormLoginUI();
+            FormLoginUI loginForm = new FormLoginUI("Employee");
             loginForm.Show();
             this.Hide();
         }
@@ -27,6 +27,11 @@ namespace LoginSystem
         private void label3_Click(object sender, EventArgs e) { }
         private void label1_Click(object sender, EventArgs e) { }
         private void BtnClose_Click(object sender, EventArgs e) { }
+
+        private void btnCloseAlert_Click(object sender, EventArgs e)
+        {
+            this.guna2Panel2.Visible = false;
+        }
 
         private void label7_Click(object sender, EventArgs e)
         {
@@ -60,12 +65,16 @@ namespace LoginSystem
 
         private void BtnAdmin_Click(object sender, EventArgs e)
         {
-
+            FormLoginUI loginForm = new FormLoginUI("Admin");
+            loginForm.Show();
+            this.Hide();
         }
 
         private void BtnEmloyee_Click(object sender, EventArgs e)
         {
-
+            FormLoginUI loginForm = new FormLoginUI("Employee");
+            loginForm.Show();
+            this.Hide();
         }
 
         private void label1_Click_1(object sender, EventArgs e)

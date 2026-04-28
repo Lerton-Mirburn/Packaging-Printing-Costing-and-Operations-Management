@@ -15,6 +15,7 @@ namespace PPCOM
     {
         public MainForm()
         {
+            this.DoubleBuffered = true;
             InitializeComponent();
             LoadPage(new DashboardControl());
             textBox1.Enter += textBox1_Enter;
@@ -211,12 +212,12 @@ namespace PPCOM
 
         }
 
-        bool isCollapsed = false;
+        bool isCollapsed = true;
         private void PictureMenu_Click(object sender, EventArgs e)
         {
             if (isCollapsed)
             {
-                panelSidebar.Width = 242; // expand
+                panelSidebar.Width = 323; // expand
                 isCollapsed = false;
             }
             else

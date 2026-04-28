@@ -1,4 +1,4 @@
-﻿namespace PPCOM
+namespace PPCOM
 {
     partial class MainForm
     {

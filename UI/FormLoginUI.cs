@@ -8,9 +8,12 @@ namespace LoginSystem
 {
     public partial class FormLoginUI : Form
     {
-        public FormLoginUI()
+        private string roleType;
+
+        public FormLoginUI(string roleType = "")
         {
             InitializeComponent();
+            this.roleType = roleType;
         }
 
         private void label1_Click(object sender, EventArgs e) { }
@@ -49,19 +52,69 @@ namespace LoginSystem
             // Kiểm tra xem User có tồn tại (không bị null) hay không
             if (loggedInUser != null)
             {
-                MainForm main = new MainForm();
-                main.Show();
+                bool roleValid = true;
 
-                Form parentForm = this.FindForm();
-                if (parentForm != null)
+                if (!string.IsNullOrEmpty(this.roleType))
                 {
-                    parentForm.Hide();
+                    // Admin: role_id = 1
+                    if (this.roleType == "Admin" && loggedInUser.role_id != 1) roleValid = false;
+                    // Employee: role_id != 1
+                    if (this.roleType == "Employee" && loggedInUser.role_id == 1) roleValid = false;
+                }
+
+                if (roleValid)
+                {
+                    MainForm main = new MainForm();
+                    main.Show();
+
+                    Form parentForm = this.FindForm();
+                    if (parentForm != null)
+                    {
+                        parentForm.Hide();
+                    }
+                }
+                else
+                {
+                    this.label10.Text = "Tài khoản của bạn không có quyền đăng nhập vào mục này!";
+                    this.guna2Panel2.Visible = true;
                 }
             }
             else
             {
-                MessageBox.Show("Wrong username or password", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                this.label10.Text = "Sai tên đăng nhập hoặc mật khẩu!";
+                this.guna2Panel2.Visible = true;
             }
+        }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            this.guna2Panel2.Visible = false;
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            FormRoleSelection roleForm = new FormRoleSelection();
+            roleForm.Show();
+            this.Hide();
+        }
+
+        private void txtPassword_IconRightClick(object sender, EventArgs e)
+        {
+            if (txtPassword.PasswordChar == '●')
+            {
+                txtPassword.PasswordChar = '\0';
+            }
+            else
+            {
+                txtPassword.PasswordChar = '●';
+            }
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            FormForgotPasswordUI forgotForm = new FormForgotPasswordUI();
+            forgotForm.Show();
+            this.Hide();
         }
 
         private void FormLoginUI_Load(object sender, EventArgs e)
