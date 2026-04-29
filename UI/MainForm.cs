@@ -1,9 +1,5 @@
-<<<<<<< HEAD
 using PPCOM.Controls;
-=======
-﻿using PPCOM.Controls;
 using PPCOM.UI.Controls;
->>>>>>> ea11da07d533132138b2835ae39239aa179bc5e6
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -18,10 +14,13 @@ namespace PPCOM
 {
     public partial class MainForm : Form
     {
+        private Stack<UserControl> navigationHistory = new Stack<UserControl>();
+
         public MainForm()
         {
             this.DoubleBuffered = true;
             InitializeComponent();
+            isCollapsed = panelSidebar.Width <= 60;
             LoadPage(new DashboardControl());
             textBox1.Enter += textBox1_Enter;
             textBox1.Leave += textBox1_Leave;
@@ -32,10 +31,7 @@ namespace PPCOM
 
         }
 
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
 
-        }
         private void pictureLogo_Click(object sender, EventArgs e)
         {
             LoadPage(new DashboardControl());
@@ -100,9 +96,28 @@ namespace PPCOM
 
         private void LoadPage(UserControl page)
         {
+            if (panelContent.Controls.Count > 0)
+            {
+                UserControl current = panelContent.Controls[0] as UserControl;
+                if (current != null && current.GetType() != page.GetType())
+                {
+                    navigationHistory.Push(current);
+                }
+            }
             panelContent.Controls.Clear();
             page.Dock = DockStyle.Fill;
             panelContent.Controls.Add(page);
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            if (navigationHistory.Count > 0)
+            {
+                UserControl prev = navigationHistory.Pop();
+                panelContent.Controls.Clear();
+                prev.Dock = DockStyle.Fill;
+                panelContent.Controls.Add(prev);
+            }
         }
 
         private void btnEmployee_Click(object sender, EventArgs e)
@@ -237,7 +252,7 @@ namespace PPCOM
 
         }
 
-        bool isCollapsed = true;
+        bool isCollapsed;
         private void PictureMenu_Click(object sender, EventArgs e)
         {
             if (isCollapsed)
