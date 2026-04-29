@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 using PPCOM.Controls;
+=======
+﻿using PPCOM.Controls;
+using PPCOM.UI.Controls;
+>>>>>>> ea11da07d533132138b2835ae39239aa179bc5e6
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -119,7 +124,7 @@ namespace PPCOM
 
         private void btnProduce_Click(object sender, EventArgs e)
         {
-
+            LoadPage(new ProductionControl());
         }
 
         private void btnStorage_Click(object sender, EventArgs e)

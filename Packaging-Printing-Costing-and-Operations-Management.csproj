@@ -239,6 +239,12 @@
     <Compile Include="UI\Controls\ProduceControl.Designer.cs">
       <DependentUpon>ProduceControl.cs</DependentUpon>
     </Compile>
+    <Compile Include="UI\Controls\ProductionControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\ProductionControl.Designer.cs">
+      <DependentUpon>ProductionControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="UI\Controls\PurchaseControl.cs">
       <SubType>UserControl</SubType>
     </Compile>

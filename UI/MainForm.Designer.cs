@@ -99,7 +99,10 @@ namespace PPCOM
             this.panelTop.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelTop.Location = new System.Drawing.Point(0, 0);
             this.panelTop.Margin = new System.Windows.Forms.Padding(4);
+<<<<<<< HEAD
             
+=======
+>>>>>>> ea11da07d533132138b2835ae39239aa179bc5e6
             this.panelTop.Name = "panelTop";
 
             this.panelTop.Size = new System.Drawing.Size(1579, 86);
@@ -110,7 +113,10 @@ namespace PPCOM
             this.pictureBox4.Image = global::PPCOM.Properties.Resources.Group_12;
             this.pictureBox4.Location = new System.Drawing.Point(151, 26);
             this.pictureBox4.Margin = new System.Windows.Forms.Padding(4);
+<<<<<<< HEAD
             
+=======
+>>>>>>> ea11da07d533132138b2835ae39239aa179bc5e6
             this.pictureBox4.Name = "pictureBox4";
 
             this.pictureBox4.Size = new System.Drawing.Size(16, 30);
@@ -122,19 +128,70 @@ namespace PPCOM
             this.pictureBox1.Image = global::PPCOM.Properties.Resources.Group_11;
             this.pictureBox1.Location = new System.Drawing.Point(103, 26);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
+<<<<<<< HEAD
             
+=======
+>>>>>>> ea11da07d533132138b2835ae39239aa179bc5e6
             this.pictureBox1.Name = "pictureBox1";
 
             this.pictureBox1.Size = new System.Drawing.Size(16, 30);
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
             // 
+<<<<<<< HEAD
+=======
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::PPCOM.Properties.Resources.Bell;
+            this.pictureBox2.Location = new System.Drawing.Point(1265, 25);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(31, 31);
+            this.pictureBox2.TabIndex = 3;
+            this.pictureBox2.TabStop = false;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.label2.Location = new System.Drawing.Point(1487, 49);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(60, 22);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "Admin";
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::PPCOM.Properties.Resources.uis_user_md;
+            this.pictureBox3.Location = new System.Drawing.Point(1499, 15);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(39, 31);
+            this.pictureBox3.TabIndex = 4;
+            this.pictureBox3.TabStop = false;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.label1.Location = new System.Drawing.Point(1304, 25);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(142, 22);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Tên Người Dùng";
+            // 
+>>>>>>> ea11da07d533132138b2835ae39239aa179bc5e6
             // pictureLogo
             // 
             this.pictureLogo.Image = ((System.Drawing.Image)(resources.GetObject("pictureLogo.Image")));
             this.pictureLogo.Location = new System.Drawing.Point(12, 15);
             this.pictureLogo.Margin = new System.Windows.Forms.Padding(4);
+<<<<<<< HEAD
             
+=======
+>>>>>>> ea11da07d533132138b2835ae39239aa179bc5e6
             this.pictureLogo.Name = "pictureLogo";
 
             this.pictureLogo.Size = new System.Drawing.Size(68, 64);
@@ -150,7 +207,10 @@ namespace PPCOM
             this.panelBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panelBottom.Location = new System.Drawing.Point(0, 784);
             this.panelBottom.Margin = new System.Windows.Forms.Padding(4);
+<<<<<<< HEAD
             
+=======
+>>>>>>> ea11da07d533132138b2835ae39239aa179bc5e6
             this.panelBottom.Name = "panelBottom";
 
             this.panelBottom.Size = new System.Drawing.Size(1579, 55);
@@ -187,7 +247,10 @@ namespace PPCOM
             this.panelBody.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelBody.Location = new System.Drawing.Point(0, 86);
             this.panelBody.Margin = new System.Windows.Forms.Padding(4);
+<<<<<<< HEAD
             
+=======
+>>>>>>> ea11da07d533132138b2835ae39239aa179bc5e6
             this.panelBody.Name = "panelBody";
 
             this.panelBody.Size = new System.Drawing.Size(1579, 698);
@@ -199,7 +262,10 @@ namespace PPCOM
             this.panelContent.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelContent.Location = new System.Drawing.Point(323, 0);
             this.panelContent.Margin = new System.Windows.Forms.Padding(4);
+<<<<<<< HEAD
             
+=======
+>>>>>>> ea11da07d533132138b2835ae39239aa179bc5e6
             this.panelContent.Name = "panelContent";
 
             this.panelContent.Size = new System.Drawing.Size(1256, 698);
@@ -226,7 +292,10 @@ namespace PPCOM
             this.panelSidebar.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelSidebar.Location = new System.Drawing.Point(0, 0);
             this.panelSidebar.Margin = new System.Windows.Forms.Padding(4);
+<<<<<<< HEAD
             
+=======
+>>>>>>> ea11da07d533132138b2835ae39239aa179bc5e6
             this.panelSidebar.Name = "panelSidebar";
 
             this.panelSidebar.Size = new System.Drawing.Size(323, 698);
@@ -253,7 +322,10 @@ namespace PPCOM
             this.btnReportStorage.BackColor = System.Drawing.SystemColors.Info;
             this.btnReportStorage.Location = new System.Drawing.Point(0, 121);
             this.btnReportStorage.Margin = new System.Windows.Forms.Padding(4);
+<<<<<<< HEAD
             
+=======
+>>>>>>> ea11da07d533132138b2835ae39239aa179bc5e6
             this.btnReportStorage.Name = "btnReportStorage";
             this.btnReportStorage.BorderRadius = 8;
             this.btnReportStorage.FillColor = System.Drawing.Color.Transparent;
@@ -273,7 +345,10 @@ namespace PPCOM
             this.btnInventory.BackColor = System.Drawing.SystemColors.Info;
             this.btnInventory.Location = new System.Drawing.Point(0, 80);
             this.btnInventory.Margin = new System.Windows.Forms.Padding(4);
+<<<<<<< HEAD
             
+=======
+>>>>>>> ea11da07d533132138b2835ae39239aa179bc5e6
             this.btnInventory.Name = "btnInventory";
             this.btnInventory.BorderRadius = 8;
             this.btnInventory.FillColor = System.Drawing.Color.Transparent;
@@ -294,7 +369,10 @@ namespace PPCOM
             this.btnExport.BackColor = System.Drawing.SystemColors.Info;
             this.btnExport.Location = new System.Drawing.Point(0, 39);
             this.btnExport.Margin = new System.Windows.Forms.Padding(4);
+<<<<<<< HEAD
             
+=======
+>>>>>>> ea11da07d533132138b2835ae39239aa179bc5e6
             this.btnExport.Name = "btnExport";
             this.btnExport.BorderRadius = 8;
             this.btnExport.FillColor = System.Drawing.Color.Transparent;
@@ -315,7 +393,10 @@ namespace PPCOM
             this.btnImport.BackColor = System.Drawing.SystemColors.Info;
             this.btnImport.Location = new System.Drawing.Point(0, 0);
             this.btnImport.Margin = new System.Windows.Forms.Padding(4);
+<<<<<<< HEAD
             
+=======
+>>>>>>> ea11da07d533132138b2835ae39239aa179bc5e6
             this.btnImport.Name = "btnImport";
             this.btnImport.BorderRadius = 8;
             this.btnImport.FillColor = System.Drawing.Color.Transparent;
@@ -350,7 +431,10 @@ namespace PPCOM
             this.btnPurchase.BackColor = System.Drawing.SystemColors.Info;
             this.btnPurchase.Location = new System.Drawing.Point(0, 39);
             this.btnPurchase.Margin = new System.Windows.Forms.Padding(4);
+<<<<<<< HEAD
             
+=======
+>>>>>>> ea11da07d533132138b2835ae39239aa179bc5e6
             this.btnPurchase.Name = "btnPurchase";
             this.btnPurchase.BorderRadius = 8;
             this.btnPurchase.FillColor = System.Drawing.Color.Transparent;
@@ -371,7 +455,10 @@ namespace PPCOM
             this.btnCreatePurchaseOrder.BackColor = System.Drawing.SystemColors.Info;
             this.btnCreatePurchaseOrder.Location = new System.Drawing.Point(0, 0);
             this.btnCreatePurchaseOrder.Margin = new System.Windows.Forms.Padding(4);
+<<<<<<< HEAD
             
+=======
+>>>>>>> ea11da07d533132138b2835ae39239aa179bc5e6
             this.btnCreatePurchaseOrder.Name = "btnCreatePurchaseOrder";
             this.btnCreatePurchaseOrder.BorderRadius = 8;
             this.btnCreatePurchaseOrder.FillColor = System.Drawing.Color.Transparent;
@@ -406,7 +493,10 @@ namespace PPCOM
             this.btnPay.BackColor = System.Drawing.SystemColors.Info;
             this.btnPay.Location = new System.Drawing.Point(0, 39);
             this.btnPay.Margin = new System.Windows.Forms.Padding(4);
+<<<<<<< HEAD
             
+=======
+>>>>>>> ea11da07d533132138b2835ae39239aa179bc5e6
             this.btnPay.Name = "btnPay";
             this.btnPay.BorderRadius = 8;
             this.btnPay.FillColor = System.Drawing.Color.Transparent;
@@ -427,7 +517,10 @@ namespace PPCOM
             this.btnDebtManagement.BackColor = System.Drawing.SystemColors.Info;
             this.btnDebtManagement.Location = new System.Drawing.Point(0, 0);
             this.btnDebtManagement.Margin = new System.Windows.Forms.Padding(4);
+<<<<<<< HEAD
             
+=======
+>>>>>>> ea11da07d533132138b2835ae39239aa179bc5e6
             this.btnDebtManagement.Name = "btnDebtManagement";
             this.btnDebtManagement.BorderRadius = 8;
             this.btnDebtManagement.FillColor = System.Drawing.Color.Transparent;
@@ -464,7 +557,10 @@ namespace PPCOM
             this.BtnCompare.BackColor = System.Drawing.SystemColors.Info;
             this.BtnCompare.Location = new System.Drawing.Point(0, 162);
             this.BtnCompare.Margin = new System.Windows.Forms.Padding(4);
+<<<<<<< HEAD
             
+=======
+>>>>>>> ea11da07d533132138b2835ae39239aa179bc5e6
             this.BtnCompare.Name = "BtnCompare";
             this.BtnCompare.BorderRadius = 8;
             this.BtnCompare.FillColor = System.Drawing.Color.Transparent;
@@ -485,7 +581,10 @@ namespace PPCOM
             this.btnDebtSummary.BackColor = System.Drawing.SystemColors.Info;
             this.btnDebtSummary.Location = new System.Drawing.Point(0, 121);
             this.btnDebtSummary.Margin = new System.Windows.Forms.Padding(4);
+<<<<<<< HEAD
             
+=======
+>>>>>>> ea11da07d533132138b2835ae39239aa179bc5e6
             this.btnDebtSummary.Name = "btnDebtSummary";
             this.btnDebtSummary.BorderRadius = 8;
             this.btnDebtSummary.FillColor = System.Drawing.Color.Transparent;
@@ -506,7 +605,10 @@ namespace PPCOM
             this.btnPurchaseSummary.BackColor = System.Drawing.SystemColors.Info;
             this.btnPurchaseSummary.Location = new System.Drawing.Point(0, 80);
             this.btnPurchaseSummary.Margin = new System.Windows.Forms.Padding(4);
+<<<<<<< HEAD
             
+=======
+>>>>>>> ea11da07d533132138b2835ae39239aa179bc5e6
             this.btnPurchaseSummary.Name = "btnPurchaseSummary";
             this.btnPurchaseSummary.BorderRadius = 8;
             this.btnPurchaseSummary.FillColor = System.Drawing.Color.Transparent;
@@ -527,7 +629,10 @@ namespace PPCOM
             this.btnDebtDetail.BackColor = System.Drawing.SystemColors.Info;
             this.btnDebtDetail.Location = new System.Drawing.Point(0, 39);
             this.btnDebtDetail.Margin = new System.Windows.Forms.Padding(4);
+<<<<<<< HEAD
             
+=======
+>>>>>>> ea11da07d533132138b2835ae39239aa179bc5e6
             this.btnDebtDetail.Name = "btnDebtDetail";
             this.btnDebtDetail.BorderRadius = 8;
             this.btnDebtDetail.FillColor = System.Drawing.Color.Transparent;
@@ -548,7 +653,10 @@ namespace PPCOM
             this.btnPurchaseDetail.BackColor = System.Drawing.SystemColors.Info;
             this.btnPurchaseDetail.Location = new System.Drawing.Point(0, 0);
             this.btnPurchaseDetail.Margin = new System.Windows.Forms.Padding(4);
+<<<<<<< HEAD
             
+=======
+>>>>>>> ea11da07d533132138b2835ae39239aa179bc5e6
             this.btnPurchaseDetail.Name = "btnPurchaseDetail";
             this.btnPurchaseDetail.BorderRadius = 8;
             this.btnPurchaseDetail.FillColor = System.Drawing.Color.Transparent;
@@ -567,9 +675,14 @@ namespace PPCOM
             // PictureMenu
             // 
             this.PictureMenu.Image = global::PPCOM.Properties.Resources.zoom;
+<<<<<<< HEAD
             this.PictureMenu.Location = new System.Drawing.Point(261, 8);
             this.PictureMenu.Margin = new System.Windows.Forms.Padding(4);
             
+=======
+            this.PictureMenu.Location = new System.Drawing.Point(21, 7);
+            this.PictureMenu.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> ea11da07d533132138b2835ae39239aa179bc5e6
             this.PictureMenu.Name = "PictureMenu";
 
             this.PictureMenu.Size = new System.Drawing.Size(28, 26);
@@ -581,7 +694,10 @@ namespace PPCOM
             // 
             this.textBox1.Location = new System.Drawing.Point(21, 68);
             this.textBox1.Margin = new System.Windows.Forms.Padding(4);
+<<<<<<< HEAD
             
+=======
+>>>>>>> ea11da07d533132138b2835ae39239aa179bc5e6
             this.textBox1.Name = "textBox1";
 
             this.textBox1.Size = new System.Drawing.Size(268, 22);
@@ -593,7 +709,10 @@ namespace PPCOM
             // 
             this.btnEmployee.Location = new System.Drawing.Point(21, 113);
             this.btnEmployee.Margin = new System.Windows.Forms.Padding(4);
+<<<<<<< HEAD
             
+=======
+>>>>>>> ea11da07d533132138b2835ae39239aa179bc5e6
             this.btnEmployee.Name = "btnEmployee";
             this.btnEmployee.BorderRadius = 8;
             this.btnEmployee.FillColor = System.Drawing.Color.Transparent;
@@ -613,7 +732,10 @@ namespace PPCOM
             // 
             this.btnReport.Location = new System.Drawing.Point(21, 475);
             this.btnReport.Margin = new System.Windows.Forms.Padding(4);
+<<<<<<< HEAD
             
+=======
+>>>>>>> ea11da07d533132138b2835ae39239aa179bc5e6
             this.btnReport.Name = "btnReport";
             this.btnReport.BorderRadius = 8;
             this.btnReport.FillColor = System.Drawing.Color.Transparent;
@@ -633,7 +755,10 @@ namespace PPCOM
             // 
             this.btnCalculate.Location = new System.Drawing.Point(21, 174);
             this.btnCalculate.Margin = new System.Windows.Forms.Padding(4);
+<<<<<<< HEAD
             
+=======
+>>>>>>> ea11da07d533132138b2835ae39239aa179bc5e6
             this.btnCalculate.Name = "btnCalculate";
             this.btnCalculate.BorderRadius = 8;
             this.btnCalculate.FillColor = System.Drawing.Color.Transparent;
@@ -653,7 +778,10 @@ namespace PPCOM
             // 
             this.btnDebtAndPay.Location = new System.Drawing.Point(21, 415);
             this.btnDebtAndPay.Margin = new System.Windows.Forms.Padding(4);
+<<<<<<< HEAD
             
+=======
+>>>>>>> ea11da07d533132138b2835ae39239aa179bc5e6
             this.btnDebtAndPay.Name = "btnDebtAndPay";
             this.btnDebtAndPay.BorderRadius = 8;
             this.btnDebtAndPay.FillColor = System.Drawing.Color.Transparent;
@@ -673,7 +801,10 @@ namespace PPCOM
             // 
             this.btnOrder.Location = new System.Drawing.Point(21, 234);
             this.btnOrder.Margin = new System.Windows.Forms.Padding(4);
+<<<<<<< HEAD
             
+=======
+>>>>>>> ea11da07d533132138b2835ae39239aa179bc5e6
             this.btnOrder.Name = "btnOrder";
             this.btnOrder.BorderRadius = 8;
             this.btnOrder.FillColor = System.Drawing.Color.Transparent;
@@ -693,7 +824,10 @@ namespace PPCOM
             // 
             this.btnEstimate.Location = new System.Drawing.Point(21, 535);
             this.btnEstimate.Margin = new System.Windows.Forms.Padding(4);
+<<<<<<< HEAD
             
+=======
+>>>>>>> ea11da07d533132138b2835ae39239aa179bc5e6
             this.btnEstimate.Name = "btnEstimate";
             this.btnEstimate.BorderRadius = 8;
             this.btnEstimate.FillColor = System.Drawing.Color.Transparent;
@@ -713,7 +847,10 @@ namespace PPCOM
             // 
             this.btnProduce.Location = new System.Drawing.Point(21, 294);
             this.btnProduce.Margin = new System.Windows.Forms.Padding(4);
+<<<<<<< HEAD
             
+=======
+>>>>>>> ea11da07d533132138b2835ae39239aa179bc5e6
             this.btnProduce.Name = "btnProduce";
             this.btnProduce.BorderRadius = 8;
             this.btnProduce.FillColor = System.Drawing.Color.Transparent;
@@ -733,7 +870,10 @@ namespace PPCOM
             // 
             this.btnStorage.Location = new System.Drawing.Point(21, 354);
             this.btnStorage.Margin = new System.Windows.Forms.Padding(4);
+<<<<<<< HEAD
             
+=======
+>>>>>>> ea11da07d533132138b2835ae39239aa179bc5e6
             this.btnStorage.Name = "btnStorage";
             this.btnStorage.BorderRadius = 8;
             this.btnStorage.FillColor = System.Drawing.Color.Transparent;
@@ -822,7 +962,10 @@ namespace PPCOM
             this.Controls.Add(this.panelBody);
             this.Controls.Add(this.panelBottom);
             this.Controls.Add(this.panelTop);
+<<<<<<< HEAD
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+=======
+>>>>>>> ea11da07d533132138b2835ae39239aa179bc5e6
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
