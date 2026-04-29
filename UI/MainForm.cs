@@ -1,4 +1,4 @@
-﻿using PPCOM.Controls;
+using PPCOM.Controls;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -40,30 +40,50 @@ namespace PPCOM
             int spacing = 15;
             int currentTop = btnEmployee.Bottom + spacing;
 
-            void Place(Control ctrl)
+            btnCalculate.Top = currentTop;
+            currentTop = btnCalculate.Bottom + spacing;
+
+            btnOrder.Top = currentTop;
+            currentTop = btnOrder.Bottom + spacing;
+
+            if (pnlPurchase.Visible)
             {
-                ctrl.Top = currentTop;
-                currentTop = ctrl.Bottom + spacing;
+                pnlPurchase.Top = currentTop;
+                currentTop = pnlPurchase.Bottom + spacing;
             }
 
-            void PlaceWithPanel(Control button, Panel panel)
-            {
-                Place(button);
+            btnProduce.Top = currentTop;
+            currentTop = btnProduce.Bottom + spacing;
 
-                if (panel.Visible)
-                {
-                    panel.Top = currentTop;
-                    currentTop = panel.Bottom + spacing;
-                }
+            btnStorage.Top = currentTop;
+            currentTop = btnStorage.Bottom + spacing;
+
+            if (pnlStorage.Visible)
+            {
+                pnlStorage.Top = currentTop;
+                currentTop = pnlStorage.Bottom + spacing;
             }
 
-            Place(btnCalculate);
-            PlaceWithPanel(btnOrder, pnlPurchase);
-            Place(btnProduce);
-            PlaceWithPanel(btnStorage, pnlStorage);
-            PlaceWithPanel(btnDebtAndPay, pnlDebt);   // 🔥 new
-            PlaceWithPanel(btnReport, pnlReport);     // 🔥 new
-            Place(btnEstimate);
+            btnDebtAndPay.Top = currentTop;
+            currentTop = btnDebtAndPay.Bottom + spacing;
+
+            if (pnlDebt.Visible)
+            {
+                pnlDebt.Top = currentTop;
+                currentTop = pnlDebt.Bottom + spacing;
+            }
+
+            btnReport.Top = currentTop;
+            currentTop = btnReport.Bottom + spacing;
+
+            if (pnlReport.Visible)
+            {
+                pnlReport.Top = currentTop;
+                currentTop = pnlReport.Bottom + spacing;
+            }
+
+            btnEstimate.Top = currentTop;
+            currentTop = btnEstimate.Bottom + spacing;
 
             panelSidebar.AutoScrollMinSize = new Size(0, currentTop + 10);
         }

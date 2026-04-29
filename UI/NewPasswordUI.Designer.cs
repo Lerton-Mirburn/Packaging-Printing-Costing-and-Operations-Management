@@ -31,9 +31,9 @@ namespace PPCOM
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(NewPasswordUI));
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
-            this.MaximizeBox = new Guna.UI2.WinForms.Guna2ControlBox();
+            this.btnMaximize = new Guna.UI2.WinForms.Guna2ControlBox();
             this.CloseBox = new Guna.UI2.WinForms.Guna2ControlBox();
-            this.MinimizeBox = new Guna.UI2.WinForms.Guna2ControlBox();
+            this.btnMinimize = new Guna.UI2.WinForms.Guna2ControlBox();
             this.label5 = new System.Windows.Forms.Label();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
@@ -87,16 +87,16 @@ namespace PPCOM
             this.guna2Button1.Size = new System.Drawing.Size(40, 54);
             this.guna2Button1.TabIndex = 25;
             // 
-            // MaximizeBox
+            // btnMaximize
             // 
-            this.MaximizeBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.MaximizeBox.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MaximizeBox;
-            this.MaximizeBox.FillColor = System.Drawing.Color.Transparent;
-            this.MaximizeBox.IconColor = System.Drawing.Color.Black;
-            this.MaximizeBox.Location = new System.Drawing.Point(928, 12);
-            this.MaximizeBox.Name = "MaximizeBox";
-            this.MaximizeBox.Size = new System.Drawing.Size(28, 29);
-            this.MaximizeBox.TabIndex = 23;
+            this.btnMaximize.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnMaximize.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MaximizeBox;
+            this.btnMaximize.FillColor = System.Drawing.Color.Transparent;
+            this.btnMaximize.IconColor = System.Drawing.Color.Black;
+            this.btnMaximize.Location = new System.Drawing.Point(928, 12);
+            this.btnMaximize.Name = "btnMaximize";
+            this.btnMaximize.Size = new System.Drawing.Size(28, 29);
+            this.btnMaximize.TabIndex = 23;
             // 
             // CloseBox
             // 
@@ -108,17 +108,17 @@ namespace PPCOM
             this.CloseBox.Size = new System.Drawing.Size(26, 29);
             this.CloseBox.TabIndex = 21;
             // 
-            // MinimizeBox
+            // btnMinimize
             // 
-            this.MinimizeBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.MinimizeBox.ControlBoxStyle = Guna.UI2.WinForms.Enums.ControlBoxStyle.Custom;
-            this.MinimizeBox.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MinimizeBox;
-            this.MinimizeBox.FillColor = System.Drawing.Color.Transparent;
-            this.MinimizeBox.IconColor = System.Drawing.Color.Black;
-            this.MinimizeBox.Location = new System.Drawing.Point(895, 12);
-            this.MinimizeBox.Name = "MinimizeBox";
-            this.MinimizeBox.Size = new System.Drawing.Size(27, 29);
-            this.MinimizeBox.TabIndex = 22;
+            this.btnMinimize.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnMinimize.ControlBoxStyle = Guna.UI2.WinForms.Enums.ControlBoxStyle.Custom;
+            this.btnMinimize.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MinimizeBox;
+            this.btnMinimize.FillColor = System.Drawing.Color.Transparent;
+            this.btnMinimize.IconColor = System.Drawing.Color.Black;
+            this.btnMinimize.Location = new System.Drawing.Point(895, 12);
+            this.btnMinimize.Name = "btnMinimize";
+            this.btnMinimize.Size = new System.Drawing.Size(27, 29);
+            this.btnMinimize.TabIndex = 22;
             // 
             // label5
             // 
@@ -135,9 +135,9 @@ namespace PPCOM
             this.guna2Panel1.Controls.Add(this.guna2Button2);
             this.guna2Panel1.Controls.Add(this.guna2Button1);
             this.guna2Panel1.Controls.Add(this.pictureBox5);
-            this.guna2Panel1.Controls.Add(this.MaximizeBox);
+            this.guna2Panel1.Controls.Add(this.btnMaximize);
             this.guna2Panel1.Controls.Add(this.CloseBox);
-            this.guna2Panel1.Controls.Add(this.MinimizeBox);
+            this.guna2Panel1.Controls.Add(this.btnMinimize);
             this.guna2Panel1.Controls.Add(this.label1);
             this.guna2Panel1.Controls.Add(this.pictureBox3);
             this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Top;
@@ -345,9 +345,9 @@ namespace PPCOM
         #endregion
         private Guna.UI2.WinForms.Guna2Button guna2Button2;
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
-        private Guna.UI2.WinForms.Guna2ControlBox MaximizeBox;
+        private Guna.UI2.WinForms.Guna2ControlBox btnMaximize;
         private Guna.UI2.WinForms.Guna2ControlBox CloseBox;
-        private Guna.UI2.WinForms.Guna2ControlBox MinimizeBox;
+        private Guna.UI2.WinForms.Guna2ControlBox btnMinimize;
         private System.Windows.Forms.Label label5;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
         private System.Windows.Forms.PictureBox pictureBox5;

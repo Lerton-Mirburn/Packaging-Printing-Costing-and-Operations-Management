@@ -123,7 +123,6 @@ D:\Project_CNPM\PPCOM_New\bin\Debug\Guna.UI2.dll
 D:\Project_CNPM\PPCOM_New\bin\Debug\MaterialSkin.dll
 D:\Project_CNPM\PPCOM_New\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
 D:\Project_CNPM\PPCOM_New\bin\Debug\Microsoft.Data.SqlClient.dll
-D:\Project_CNPM\PPCOM_New\bin\Debug\Microsoft.Data.Tools.Components.dll
 D:\Project_CNPM\PPCOM_New\bin\Debug\Microsoft.Identity.Client.dll
 D:\Project_CNPM\PPCOM_New\bin\Debug\Microsoft.Identity.Client.Extensions.Msal.dll
 D:\Project_CNPM\PPCOM_New\bin\Debug\Microsoft.IdentityModel.Abstractions.dll

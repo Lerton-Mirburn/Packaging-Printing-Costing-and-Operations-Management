@@ -1,4 +1,4 @@
-﻿namespace PPCOM
+namespace PPCOM
 {
     partial class FormEdit
     {
@@ -31,9 +31,9 @@
             this.components = new System.ComponentModel.Container();
             this.guna2BorderlessForm1 = new Guna.UI2.WinForms.Guna2BorderlessForm(this.components);
             this.label1 = new System.Windows.Forms.Label();
-            this.MaximizeBox = new Guna.UI2.WinForms.Guna2ControlBox();
+            this.btnMaximize = new Guna.UI2.WinForms.Guna2ControlBox();
             this.CloseBox = new Guna.UI2.WinForms.Guna2ControlBox();
-            this.MinimizeBox = new Guna.UI2.WinForms.Guna2ControlBox();
+            this.btnMinimize = new Guna.UI2.WinForms.Guna2ControlBox();
             this.label2 = new System.Windows.Forms.Label();
             this.textBox1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.textBox2 = new Guna.UI2.WinForms.Guna2TextBox();
@@ -63,17 +63,17 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Chỉnh sửa thông tin";
             // 
-            // MaximizeBox
+            // btnMaximize
             // 
-            this.MaximizeBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.MaximizeBox.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MaximizeBox;
-            this.MaximizeBox.FillColor = System.Drawing.Color.Transparent;
-            this.MaximizeBox.IconColor = System.Drawing.Color.Black;
-            this.MaximizeBox.Location = new System.Drawing.Point(286, 10);
-            this.MaximizeBox.Margin = new System.Windows.Forms.Padding(2);
-            this.MaximizeBox.Name = "MaximizeBox";
-            this.MaximizeBox.Size = new System.Drawing.Size(21, 24);
-            this.MaximizeBox.TabIndex = 26;
+            this.btnMaximize.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnMaximize.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MaximizeBox;
+            this.btnMaximize.FillColor = System.Drawing.Color.Transparent;
+            this.btnMaximize.IconColor = System.Drawing.Color.Black;
+            this.btnMaximize.Location = new System.Drawing.Point(286, 10);
+            this.btnMaximize.Margin = new System.Windows.Forms.Padding(2);
+            this.btnMaximize.Name = "btnMaximize";
+            this.btnMaximize.Size = new System.Drawing.Size(21, 24);
+            this.btnMaximize.TabIndex = 26;
             // 
             // CloseBox
             // 
@@ -86,18 +86,18 @@
             this.CloseBox.Size = new System.Drawing.Size(20, 24);
             this.CloseBox.TabIndex = 24;
             // 
-            // MinimizeBox
+            // btnMinimize
             // 
-            this.MinimizeBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.MinimizeBox.ControlBoxStyle = Guna.UI2.WinForms.Enums.ControlBoxStyle.Custom;
-            this.MinimizeBox.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MinimizeBox;
-            this.MinimizeBox.FillColor = System.Drawing.Color.Transparent;
-            this.MinimizeBox.IconColor = System.Drawing.Color.Black;
-            this.MinimizeBox.Location = new System.Drawing.Point(262, 10);
-            this.MinimizeBox.Margin = new System.Windows.Forms.Padding(2);
-            this.MinimizeBox.Name = "MinimizeBox";
-            this.MinimizeBox.Size = new System.Drawing.Size(20, 24);
-            this.MinimizeBox.TabIndex = 25;
+            this.btnMinimize.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnMinimize.ControlBoxStyle = Guna.UI2.WinForms.Enums.ControlBoxStyle.Custom;
+            this.btnMinimize.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MinimizeBox;
+            this.btnMinimize.FillColor = System.Drawing.Color.Transparent;
+            this.btnMinimize.IconColor = System.Drawing.Color.Black;
+            this.btnMinimize.Location = new System.Drawing.Point(262, 10);
+            this.btnMinimize.Margin = new System.Windows.Forms.Padding(2);
+            this.btnMinimize.Name = "btnMinimize";
+            this.btnMinimize.Size = new System.Drawing.Size(20, 24);
+            this.btnMinimize.TabIndex = 25;
             // 
             // label2
             // 
@@ -223,9 +223,9 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.MaximizeBox);
+            this.Controls.Add(this.btnMaximize);
             this.Controls.Add(this.CloseBox);
-            this.Controls.Add(this.MinimizeBox);
+            this.Controls.Add(this.btnMinimize);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormEdit";
@@ -241,9 +241,9 @@
 
         private Guna.UI2.WinForms.Guna2BorderlessForm guna2BorderlessForm1;
         private System.Windows.Forms.Label label1;
-        private Guna.UI2.WinForms.Guna2ControlBox MaximizeBox;
+        private Guna.UI2.WinForms.Guna2ControlBox btnMaximize;
         private Guna.UI2.WinForms.Guna2ControlBox CloseBox;
-        private Guna.UI2.WinForms.Guna2ControlBox MinimizeBox;
+        private Guna.UI2.WinForms.Guna2ControlBox btnMinimize;
         private Guna.UI2.WinForms.Guna2TextBox textBox1;
         private System.Windows.Forms.Label label2;
         private Guna.UI2.WinForms.Guna2TextBox textBox2;
