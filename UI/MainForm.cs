@@ -1,4 +1,5 @@
 ﻿using PPCOM.Controls;
+using PPCOM.UI.Controls;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -99,7 +100,7 @@ namespace PPCOM
 
         private void btnProduce_Click(object sender, EventArgs e)
         {
-
+            LoadPage(new ProductionControl());
         }
 
         private void btnStorage_Click(object sender, EventArgs e)
