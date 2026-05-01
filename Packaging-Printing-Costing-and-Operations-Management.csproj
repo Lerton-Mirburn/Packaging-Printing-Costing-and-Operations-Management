@@ -423,10 +423,11 @@
     <Content Include="Resources\Group 12.png" />
     <Content Include="Resources\Key.png" />
     <Content Include="Resources\Lock.png" />
-    <Content Include="Resources\Plus.png" />
     <Content Include="Resources\Trash 2.png" />
-    <Content Include="Resources\uis_user-md.png" />
+    <Content Include="Resources\uis_user_md.png" />
+    <Content Include="Resources\admin_icon.png" />
     <Content Include="Resources\Unlock.png" />
+    <Content Include="Resources\Plus.png" />
     <Content Include="Resources\zoom.png" />
   </ItemGroup>
   <ItemGroup />

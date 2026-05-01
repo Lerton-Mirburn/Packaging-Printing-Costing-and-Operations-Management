@@ -32,15 +32,15 @@ namespace PPCOM.Controls
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DashboardControl));
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.btnProcess = new Guna.UI2.WinForms.Guna2Button();
-            this.btnCharts = new Guna.UI2.WinForms.Guna2Button();
-            this.btnPurchaseOrders = new Guna.UI2.WinForms.Guna2Button();
-            this.btnPurchaseContracts = new Guna.UI2.WinForms.Guna2Button();
-            this.btnPurchasing = new Guna.UI2.WinForms.Guna2Button();
-            this.btnInvoiceEntry = new Guna.UI2.WinForms.Guna2Button();
-            this.btnPurchaseReturns = new Guna.UI2.WinForms.Guna2Button();
-            this.btnReports = new Guna.UI2.WinForms.Guna2Button();
             this.btnOthers = new Guna.UI2.WinForms.Guna2Button();
+            this.btnReports = new Guna.UI2.WinForms.Guna2Button();
+            this.btnPurchaseReturns = new Guna.UI2.WinForms.Guna2Button();
+            this.btnInvoiceEntry = new Guna.UI2.WinForms.Guna2Button();
+            this.btnPurchasing = new Guna.UI2.WinForms.Guna2Button();
+            this.btnPurchaseContracts = new Guna.UI2.WinForms.Guna2Button();
+            this.btnPurchaseOrders = new Guna.UI2.WinForms.Guna2Button();
+            this.btnCharts = new Guna.UI2.WinForms.Guna2Button();
+            this.btnProcess = new Guna.UI2.WinForms.Guna2Button();
             this.txtSearch = new Guna.UI2.WinForms.Guna2TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
@@ -72,136 +72,8 @@ namespace PPCOM.Controls
             this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.guna2Panel1.Location = new System.Drawing.Point(0, 0);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(1100, 45);
+            this.guna2Panel1.Size = new System.Drawing.Size(1143, 45);
             this.guna2Panel1.TabIndex = 1;
-            // 
-            // btnProcess
-            // 
-            this.btnProcess.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnProcess.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnProcess.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnProcess.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnProcess.FillColor = System.Drawing.Color.Transparent;
-            this.btnProcess.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnProcess.ForeColor = System.Drawing.Color.Black;
-            this.btnProcess.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(190)))), ((int)(((byte)(130)))));
-            this.btnProcess.Location = new System.Drawing.Point(24, 3);
-            this.btnProcess.Name = "btnProcess";
-            this.btnProcess.Size = new System.Drawing.Size(91, 40);
-            this.btnProcess.TabIndex = 0;
-            this.btnProcess.Text = "Quy trình";
-            // 
-            // btnCharts
-            // 
-            this.btnCharts.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnCharts.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnCharts.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnCharts.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnCharts.FillColor = System.Drawing.Color.Transparent;
-            this.btnCharts.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnCharts.ForeColor = System.Drawing.Color.Black;
-            this.btnCharts.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(190)))), ((int)(((byte)(130)))));
-            this.btnCharts.Location = new System.Drawing.Point(121, 3);
-            this.btnCharts.Name = "btnCharts";
-            this.btnCharts.Size = new System.Drawing.Size(91, 40);
-            this.btnCharts.TabIndex = 1;
-            this.btnCharts.Text = "Biểu đồ";
-            // 
-            // btnPurchaseOrders
-            // 
-            this.btnPurchaseOrders.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnPurchaseOrders.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnPurchaseOrders.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnPurchaseOrders.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnPurchaseOrders.FillColor = System.Drawing.Color.Transparent;
-            this.btnPurchaseOrders.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnPurchaseOrders.ForeColor = System.Drawing.Color.Black;
-            this.btnPurchaseOrders.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(190)))), ((int)(((byte)(130)))));
-            this.btnPurchaseOrders.Location = new System.Drawing.Point(218, 3);
-            this.btnPurchaseOrders.Name = "btnPurchaseOrders";
-            this.btnPurchaseOrders.Size = new System.Drawing.Size(137, 40);
-            this.btnPurchaseOrders.TabIndex = 2;
-            this.btnPurchaseOrders.Text = "Đơn mua hàng";
-            // 
-            // btnPurchaseContracts
-            // 
-            this.btnPurchaseContracts.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnPurchaseContracts.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnPurchaseContracts.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnPurchaseContracts.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnPurchaseContracts.FillColor = System.Drawing.Color.Transparent;
-            this.btnPurchaseContracts.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnPurchaseContracts.ForeColor = System.Drawing.Color.Black;
-            this.btnPurchaseContracts.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(190)))), ((int)(((byte)(130)))));
-            this.btnPurchaseContracts.Location = new System.Drawing.Point(361, 2);
-            this.btnPurchaseContracts.Name = "btnPurchaseContracts";
-            this.btnPurchaseContracts.Size = new System.Drawing.Size(168, 40);
-            this.btnPurchaseContracts.TabIndex = 3;
-            this.btnPurchaseContracts.Text = "Hợp đồng mua hàng";
-            // 
-            // btnPurchasing
-            // 
-            this.btnPurchasing.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnPurchasing.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnPurchasing.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnPurchasing.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnPurchasing.FillColor = System.Drawing.Color.Transparent;
-            this.btnPurchasing.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnPurchasing.ForeColor = System.Drawing.Color.Black;
-            this.btnPurchasing.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(190)))), ((int)(((byte)(130)))));
-            this.btnPurchasing.Location = new System.Drawing.Point(535, 3);
-            this.btnPurchasing.Name = "btnPurchasing";
-            this.btnPurchasing.Size = new System.Drawing.Size(104, 40);
-            this.btnPurchasing.TabIndex = 4;
-            this.btnPurchasing.Text = "Mua hàng";
-            // 
-            // btnInvoiceEntry
-            // 
-            this.btnInvoiceEntry.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnInvoiceEntry.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnInvoiceEntry.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnInvoiceEntry.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnInvoiceEntry.FillColor = System.Drawing.Color.Transparent;
-            this.btnInvoiceEntry.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnInvoiceEntry.ForeColor = System.Drawing.Color.Black;
-            this.btnInvoiceEntry.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(190)))), ((int)(((byte)(130)))));
-            this.btnInvoiceEntry.Location = new System.Drawing.Point(645, 3);
-            this.btnInvoiceEntry.Name = "btnInvoiceEntry";
-            this.btnInvoiceEntry.Size = new System.Drawing.Size(129, 40);
-            this.btnInvoiceEntry.TabIndex = 5;
-            this.btnInvoiceEntry.Text = "Nhận Hóa Đơn";
-            // 
-            // btnPurchaseReturns
-            // 
-            this.btnPurchaseReturns.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnPurchaseReturns.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnPurchaseReturns.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnPurchaseReturns.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnPurchaseReturns.FillColor = System.Drawing.Color.Transparent;
-            this.btnPurchaseReturns.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnPurchaseReturns.ForeColor = System.Drawing.Color.Black;
-            this.btnPurchaseReturns.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(190)))), ((int)(((byte)(130)))));
-            this.btnPurchaseReturns.Location = new System.Drawing.Point(780, 3);
-            this.btnPurchaseReturns.Name = "btnPurchaseReturns";
-            this.btnPurchaseReturns.Size = new System.Drawing.Size(141, 40);
-            this.btnPurchaseReturns.TabIndex = 6;
-            this.btnPurchaseReturns.Text = "Trả lại hàng mua";
-            // 
-            // btnReports
-            // 
-            this.btnReports.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnReports.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnReports.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnReports.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnReports.FillColor = System.Drawing.Color.Transparent;
-            this.btnReports.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnReports.ForeColor = System.Drawing.Color.Black;
-            this.btnReports.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(190)))), ((int)(((byte)(130)))));
-            this.btnReports.Location = new System.Drawing.Point(927, 2);
-            this.btnReports.Name = "btnReports";
-            this.btnReports.Size = new System.Drawing.Size(87, 40);
-            this.btnReports.TabIndex = 7;
-            this.btnReports.Text = "Báo cáo";
             // 
             // btnOthers
             // 
@@ -215,9 +87,137 @@ namespace PPCOM.Controls
             this.btnOthers.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(190)))), ((int)(((byte)(130)))));
             this.btnOthers.Location = new System.Drawing.Point(1013, 2);
             this.btnOthers.Name = "btnOthers";
-            this.btnOthers.Size = new System.Drawing.Size(87, 40);
+            this.btnOthers.Size = new System.Drawing.Size(98, 40);
             this.btnOthers.TabIndex = 8;
             this.btnOthers.Text = "Khác";
+            // 
+            // btnReports
+            // 
+            this.btnReports.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnReports.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnReports.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnReports.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnReports.FillColor = System.Drawing.Color.Transparent;
+            this.btnReports.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnReports.ForeColor = System.Drawing.Color.Black;
+            this.btnReports.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(190)))), ((int)(((byte)(130)))));
+            this.btnReports.Location = new System.Drawing.Point(927, 2);
+            this.btnReports.Name = "btnReports";
+            this.btnReports.Size = new System.Drawing.Size(92, 40);
+            this.btnReports.TabIndex = 7;
+            this.btnReports.Text = "Báo cáo";
+            // 
+            // btnPurchaseReturns
+            // 
+            this.btnPurchaseReturns.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnPurchaseReturns.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnPurchaseReturns.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnPurchaseReturns.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnPurchaseReturns.FillColor = System.Drawing.Color.Transparent;
+            this.btnPurchaseReturns.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnPurchaseReturns.ForeColor = System.Drawing.Color.Black;
+            this.btnPurchaseReturns.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(190)))), ((int)(((byte)(130)))));
+            this.btnPurchaseReturns.Location = new System.Drawing.Point(780, 3);
+            this.btnPurchaseReturns.Name = "btnPurchaseReturns";
+            this.btnPurchaseReturns.Size = new System.Drawing.Size(148, 40);
+            this.btnPurchaseReturns.TabIndex = 6;
+            this.btnPurchaseReturns.Text = "Trả lại hàng mua";
+            // 
+            // btnInvoiceEntry
+            // 
+            this.btnInvoiceEntry.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnInvoiceEntry.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnInvoiceEntry.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnInvoiceEntry.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnInvoiceEntry.FillColor = System.Drawing.Color.Transparent;
+            this.btnInvoiceEntry.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnInvoiceEntry.ForeColor = System.Drawing.Color.Black;
+            this.btnInvoiceEntry.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(190)))), ((int)(((byte)(130)))));
+            this.btnInvoiceEntry.Location = new System.Drawing.Point(645, 3);
+            this.btnInvoiceEntry.Name = "btnInvoiceEntry";
+            this.btnInvoiceEntry.Size = new System.Drawing.Size(137, 40);
+            this.btnInvoiceEntry.TabIndex = 5;
+            this.btnInvoiceEntry.Text = "Nhận Hóa Đơn";
+            // 
+            // btnPurchasing
+            // 
+            this.btnPurchasing.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnPurchasing.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnPurchasing.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnPurchasing.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnPurchasing.FillColor = System.Drawing.Color.Transparent;
+            this.btnPurchasing.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnPurchasing.ForeColor = System.Drawing.Color.Black;
+            this.btnPurchasing.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(190)))), ((int)(((byte)(130)))));
+            this.btnPurchasing.Location = new System.Drawing.Point(535, 3);
+            this.btnPurchasing.Name = "btnPurchasing";
+            this.btnPurchasing.Size = new System.Drawing.Size(113, 40);
+            this.btnPurchasing.TabIndex = 4;
+            this.btnPurchasing.Text = "Mua hàng";
+            // 
+            // btnPurchaseContracts
+            // 
+            this.btnPurchaseContracts.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnPurchaseContracts.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnPurchaseContracts.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnPurchaseContracts.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnPurchaseContracts.FillColor = System.Drawing.Color.Transparent;
+            this.btnPurchaseContracts.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnPurchaseContracts.ForeColor = System.Drawing.Color.Black;
+            this.btnPurchaseContracts.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(190)))), ((int)(((byte)(130)))));
+            this.btnPurchaseContracts.Location = new System.Drawing.Point(361, 2);
+            this.btnPurchaseContracts.Name = "btnPurchaseContracts";
+            this.btnPurchaseContracts.Size = new System.Drawing.Size(176, 40);
+            this.btnPurchaseContracts.TabIndex = 3;
+            this.btnPurchaseContracts.Text = "Hợp đồng mua hàng";
+            // 
+            // btnPurchaseOrders
+            // 
+            this.btnPurchaseOrders.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnPurchaseOrders.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnPurchaseOrders.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnPurchaseOrders.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnPurchaseOrders.FillColor = System.Drawing.Color.Transparent;
+            this.btnPurchaseOrders.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnPurchaseOrders.ForeColor = System.Drawing.Color.Black;
+            this.btnPurchaseOrders.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(190)))), ((int)(((byte)(130)))));
+            this.btnPurchaseOrders.Location = new System.Drawing.Point(218, 3);
+            this.btnPurchaseOrders.Name = "btnPurchaseOrders";
+            this.btnPurchaseOrders.Size = new System.Drawing.Size(144, 40);
+            this.btnPurchaseOrders.TabIndex = 2;
+            this.btnPurchaseOrders.Text = "Đơn mua hàng";
+            // 
+            // btnCharts
+            // 
+            this.btnCharts.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnCharts.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnCharts.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnCharts.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnCharts.FillColor = System.Drawing.Color.Transparent;
+            this.btnCharts.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnCharts.ForeColor = System.Drawing.Color.Black;
+            this.btnCharts.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(190)))), ((int)(((byte)(130)))));
+            this.btnCharts.Location = new System.Drawing.Point(121, 3);
+            this.btnCharts.Name = "btnCharts";
+            this.btnCharts.Size = new System.Drawing.Size(99, 40);
+            this.btnCharts.TabIndex = 1;
+            this.btnCharts.Text = "Biểu đồ";
+            // 
+            // btnProcess
+            // 
+            this.btnProcess.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnProcess.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnProcess.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnProcess.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnProcess.FillColor = System.Drawing.Color.Transparent;
+            this.btnProcess.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnProcess.ForeColor = System.Drawing.Color.Black;
+            this.btnProcess.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(190)))), ((int)(((byte)(130)))));
+            this.btnProcess.Location = new System.Drawing.Point(24, 3);
+            this.btnProcess.Name = "btnProcess";
+            this.btnProcess.Size = new System.Drawing.Size(101, 40);
+            this.btnProcess.TabIndex = 0;
+            this.btnProcess.Text = "Quy trình";
             // 
             // txtSearch
             // 
@@ -337,9 +337,9 @@ namespace PPCOM.Controls
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtSearch);
             this.Controls.Add(this.guna2Panel1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "DashboardControl";
-            this.Size = new System.Drawing.Size(1100, 800);
+            this.Size = new System.Drawing.Size(1143, 800);
             this.guna2Panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();

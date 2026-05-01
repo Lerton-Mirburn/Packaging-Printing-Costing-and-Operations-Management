@@ -64,7 +64,7 @@ namespace LoginSystem
 
                 if (roleValid)
                 {
-                    MainForm main = new MainForm();
+                    MainForm main = new MainForm(loggedInUser);
                     main.Show();
 
                     Form parentForm = this.FindForm();

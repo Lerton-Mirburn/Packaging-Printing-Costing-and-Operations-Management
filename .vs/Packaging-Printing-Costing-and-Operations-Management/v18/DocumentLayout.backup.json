@@ -5,6 +5,54 @@
     {
       "AbsoluteMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|d:\\project_cnpm\\ppcom_new\\ui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|solutionrelative:ui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|D:\\Project_CNPM\\PPCOM_New\\ui\\controls\\storagecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|solutionrelative:ui\\controls\\storagecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|D:\\Project_CNPM\\PPCOM_New\\ui\\controls\\reportstoragecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|solutionrelative:ui\\controls\\reportstoragecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|D:\\Project_CNPM\\PPCOM_New\\ui\\controls\\purchasecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|solutionrelative:ui\\controls\\purchasecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|D:\\Project_CNPM\\PPCOM_New\\ui\\controls\\purchaselistcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|solutionrelative:ui\\controls\\purchaselistcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|D:\\Project_CNPM\\PPCOM_New\\ui\\controls\\producecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|solutionrelative:ui\\controls\\producecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|D:\\Project_CNPM\\PPCOM_New\\ui\\controls\\importstoragecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|solutionrelative:ui\\controls\\importstoragecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|D:\\Project_CNPM\\PPCOM_New\\ui\\controls\\exportcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|solutionrelative:ui\\controls\\exportcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|D:\\Project_CNPM\\PPCOM_New\\ui\\controls\\employeecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|solutionrelative:ui\\controls\\employeecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|D:\\Project_CNPM\\PPCOM_New\\ui\\controls\\detailreportcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|solutionrelative:ui\\controls\\detailreportcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|D:\\Project_CNPM\\PPCOM_New\\ui\\controls\\dashboardcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|solutionrelative:ui\\controls\\dashboardcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|D:\\Project_CNPM\\PPCOM_New\\ui\\controls\\createpurchaseordercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|solutionrelative:ui\\controls\\createpurchaseordercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|D:\\Project_CNPM\\PPCOM_New\\ui\\controls\\calculatecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DB886AD1-22CA-43CF-A246-24AD587C881D}|Packaging-Printing-Costing-and-Operations-Management.csproj|solutionrelative:ui\\controls\\calculatecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,6 +91,138 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-29T04:28:48.746Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PurchaseControl.cs [Design]",
+              "DocumentMoniker": "D:\\Project_CNPM\\PPCOM_New\\UI\\Controls\\PurchaseControl.cs",
+              "RelativeDocumentMoniker": "UI\\Controls\\PurchaseControl.cs",
+              "ToolTip": "D:\\Project_CNPM\\PPCOM_New\\UI\\Controls\\PurchaseControl.cs [Design]",
+              "RelativeToolTip": "UI\\Controls\\PurchaseControl.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2026-05-01T04:36:10.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ReportStorageControl.cs [Design]",
+              "DocumentMoniker": "D:\\Project_CNPM\\PPCOM_New\\UI\\Controls\\ReportStorageControl.cs",
+              "RelativeDocumentMoniker": "UI\\Controls\\ReportStorageControl.cs",
+              "ToolTip": "D:\\Project_CNPM\\PPCOM_New\\UI\\Controls\\ReportStorageControl.cs [Design]",
+              "RelativeToolTip": "UI\\Controls\\ReportStorageControl.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2026-05-01T04:36:03.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StorageControl.cs [Design]",
+              "DocumentMoniker": "D:\\Project_CNPM\\PPCOM_New\\UI\\Controls\\StorageControl.cs",
+              "RelativeDocumentMoniker": "UI\\Controls\\StorageControl.cs",
+              "ToolTip": "D:\\Project_CNPM\\PPCOM_New\\UI\\Controls\\StorageControl.cs [Design]",
+              "RelativeToolTip": "UI\\Controls\\StorageControl.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2026-05-01T04:36:14.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PurchaseListControl.cs [Design]",
+              "DocumentMoniker": "D:\\Project_CNPM\\PPCOM_New\\UI\\Controls\\PurchaseListControl.cs",
+              "RelativeDocumentMoniker": "UI\\Controls\\PurchaseListControl.cs",
+              "ToolTip": "D:\\Project_CNPM\\PPCOM_New\\UI\\Controls\\PurchaseListControl.cs [Design]",
+              "RelativeToolTip": "UI\\Controls\\PurchaseListControl.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2026-05-01T04:36:02.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProduceControl.cs [Design]",
+              "DocumentMoniker": "D:\\Project_CNPM\\PPCOM_New\\UI\\Controls\\ProduceControl.cs",
+              "RelativeDocumentMoniker": "UI\\Controls\\ProduceControl.cs",
+              "ToolTip": "D:\\Project_CNPM\\PPCOM_New\\UI\\Controls\\ProduceControl.cs [Design]",
+              "RelativeToolTip": "UI\\Controls\\ProduceControl.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2026-05-01T04:36:00.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ImportStorageControl.cs [Design]",
+              "DocumentMoniker": "D:\\Project_CNPM\\PPCOM_New\\UI\\Controls\\ImportStorageControl.cs",
+              "RelativeDocumentMoniker": "UI\\Controls\\ImportStorageControl.cs",
+              "ToolTip": "D:\\Project_CNPM\\PPCOM_New\\UI\\Controls\\ImportStorageControl.cs [Design]",
+              "RelativeToolTip": "UI\\Controls\\ImportStorageControl.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2026-05-01T04:35:59.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ExportControl.cs [Design]",
+              "DocumentMoniker": "D:\\Project_CNPM\\PPCOM_New\\UI\\Controls\\ExportControl.cs",
+              "RelativeDocumentMoniker": "UI\\Controls\\ExportControl.cs",
+              "ToolTip": "D:\\Project_CNPM\\PPCOM_New\\UI\\Controls\\ExportControl.cs [Design]",
+              "RelativeToolTip": "UI\\Controls\\ExportControl.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2026-05-01T04:35:57.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EmployeeControl.cs [Design]",
+              "DocumentMoniker": "D:\\Project_CNPM\\PPCOM_New\\UI\\Controls\\EmployeeControl.cs",
+              "RelativeDocumentMoniker": "UI\\Controls\\EmployeeControl.cs",
+              "ToolTip": "D:\\Project_CNPM\\PPCOM_New\\UI\\Controls\\EmployeeControl.cs [Design]",
+              "RelativeToolTip": "UI\\Controls\\EmployeeControl.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2026-05-01T04:35:55.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DetailReportControl.cs [Design]",
+              "DocumentMoniker": "D:\\Project_CNPM\\PPCOM_New\\UI\\Controls\\DetailReportControl.cs",
+              "RelativeDocumentMoniker": "UI\\Controls\\DetailReportControl.cs",
+              "ToolTip": "D:\\Project_CNPM\\PPCOM_New\\UI\\Controls\\DetailReportControl.cs [Design]",
+              "RelativeToolTip": "UI\\Controls\\DetailReportControl.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2026-05-01T04:35:53.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DashboardControl.cs [Design]",
+              "DocumentMoniker": "D:\\Project_CNPM\\PPCOM_New\\UI\\Controls\\DashboardControl.cs",
+              "RelativeDocumentMoniker": "UI\\Controls\\DashboardControl.cs",
+              "ToolTip": "D:\\Project_CNPM\\PPCOM_New\\UI\\Controls\\DashboardControl.cs [Design]",
+              "RelativeToolTip": "UI\\Controls\\DashboardControl.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2026-05-01T04:35:07.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CreatePurchaseOrderControl.cs [Design]",
+              "DocumentMoniker": "D:\\Project_CNPM\\PPCOM_New\\UI\\Controls\\CreatePurchaseOrderControl.cs",
+              "RelativeDocumentMoniker": "UI\\Controls\\CreatePurchaseOrderControl.cs",
+              "ToolTip": "D:\\Project_CNPM\\PPCOM_New\\UI\\Controls\\CreatePurchaseOrderControl.cs [Design]",
+              "RelativeToolTip": "UI\\Controls\\CreatePurchaseOrderControl.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2026-05-01T04:35:04.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CalculateControl.cs [Design]",
+              "DocumentMoniker": "D:\\Project_CNPM\\PPCOM_New\\UI\\Controls\\CalculateControl.cs",
+              "RelativeDocumentMoniker": "UI\\Controls\\CalculateControl.cs",
+              "ToolTip": "D:\\Project_CNPM\\PPCOM_New\\UI\\Controls\\CalculateControl.cs [Design]",
+              "RelativeToolTip": "UI\\Controls\\CalculateControl.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2026-05-01T04:34:54.73Z"
             }
           ]
         }

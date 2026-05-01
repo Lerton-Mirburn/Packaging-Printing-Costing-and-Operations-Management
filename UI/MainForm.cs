@@ -15,15 +15,41 @@ namespace PPCOM
     public partial class MainForm : Form
     {
         private Stack<UserControl> navigationHistory = new Stack<UserControl>();
+        private PPCOM.Models.User _currentUser;
 
-        public MainForm()
+        public MainForm(PPCOM.Models.User loggedInUser = null)
         {
             this.DoubleBuffered = true;
             InitializeComponent();
+            _currentUser = loggedInUser;
             isCollapsed = panelSidebar.Width <= 60;
             LoadPage(new DashboardControl());
             textBox1.Enter += textBox1_Enter;
             textBox1.Leave += textBox1_Leave;
+            
+            if (_currentUser != null)
+            {
+                lbUserName.Text = FixString(_currentUser.full_name);
+                if (_currentUser.role_id == 1) // Giả sử 1 là Admin
+                {
+                    pictureBox3.Image = Properties.Resources.admin_icon;
+                }
+                else
+                {
+                    pictureBox3.Image = Properties.Resources.uis_user_md;
+                }
+            }
+        }
+
+        private string FixString(string input)
+        {
+            if (string.IsNullOrEmpty(input)) return input;
+            try
+            {
+                byte[] bytes = Encoding.GetEncoding("Windows-1252").GetBytes(input);
+                return Encoding.UTF8.GetString(bytes);
+            }
+            catch { return input; }
         }
 
         private void panel2_Paint(object sender, PaintEventArgs e)

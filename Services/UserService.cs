@@ -1,4 +1,4 @@
-﻿using PPCOM.Data;
+using PPCOM.Data;
 using PPCOM.Models;
 using System;
 using System.Collections.Generic;
@@ -17,6 +17,11 @@ namespace PPCOM.Services
         public List<User> GetEmployees()
         {
             return repo.GetEmployees();
+        }
+
+        public List<User> SearchEmployees(string keyword)
+        {
+            return repo.SearchUsers(keyword);
         }
 
         public User Login(string username, string password)
@@ -108,6 +113,11 @@ namespace PPCOM.Services
         public bool ResetPassword(string email, string newPassword)
         {
             return repo.UpdatePassword(email, newPassword);
+        }
+
+        public void ResetPasswordByUserId(int userId, string newPassword)
+        {
+            repo.ResetPasswordByUserId(userId, newPassword);
         }
     }
 }

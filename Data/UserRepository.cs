@@ -44,6 +44,38 @@ namespace PPCOM.Data
             return list;
         }
 
+        public List<User> SearchUsers(string keyword)
+        {
+            List<User> list = new List<User>();
+
+            using (SqlConnection conn = new SqlConnection(connStr))
+            {
+                conn.Open();
+
+                string query = "SELECT * FROM View_UserList WHERE full_name LIKE @keyword OR email LIKE @keyword OR username LIKE @keyword";
+                SqlCommand cmd = new SqlCommand(query, conn);
+                cmd.Parameters.AddWithValue("@keyword", "%" + keyword + "%");
+
+                SqlDataReader reader = cmd.ExecuteReader();
+
+                while (reader.Read())
+                {
+                    list.Add(new User
+                    {
+                        user_id = (int)reader["user_id"],
+                        username = reader["username"].ToString(),
+                        email = reader["email"] != DBNull.Value ? reader["email"].ToString() : null,
+                        full_name = reader["full_name"].ToString(),
+                        role_id = (int)reader["role_id"],
+                        role_name = reader["role_name"].ToString(),
+                        state_text = reader["state_text"].ToString()
+                    });
+                }
+            }
+
+            return list;
+        }
+
         public List<Role> GetRoles()
         {
             List<Role> list = new List<Role>();
@@ -219,6 +251,19 @@ namespace PPCOM.Data
                 cmd.Parameters.AddWithValue("@new_password", newPassword);
                 conn.Open();
                 return cmd.ExecuteNonQuery() > 0;
+            }
+        }
+
+        public void ResetPasswordByUserId(int userId, string newPassword)
+        {
+            using (SqlConnection conn = new SqlConnection(connStr))
+            {
+                string query = "UPDATE Users SET password = @password WHERE user_id = @user_id";
+                SqlCommand cmd = new SqlCommand(query, conn);
+                cmd.Parameters.AddWithValue("@password", newPassword);
+                cmd.Parameters.AddWithValue("@user_id", userId);
+                conn.Open();
+                cmd.ExecuteNonQuery();
             }
         }
     }

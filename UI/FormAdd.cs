@@ -1,4 +1,4 @@
-﻿using PPCOM.Data;
+using PPCOM.Data;
 using PPCOM.Models;
 using PPCOM.Services;
 using System;
@@ -42,9 +42,25 @@ namespace PPCOM
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            us.AddUser(textBox1.Text, textBox2.Text, textBox3.Text, textBox4.Text, (int)cbRole.SelectedValue);
-            this.DialogResult = DialogResult.OK;
-            this.Close();
+            if (string.IsNullOrWhiteSpace(textBox1.Text) || 
+                string.IsNullOrWhiteSpace(textBox2.Text) || 
+                string.IsNullOrWhiteSpace(textBox3.Text) || 
+                string.IsNullOrWhiteSpace(textBox4.Text))
+            {
+                MessageBox.Show("Vui lòng nhập đầy đủ thông tin nhân viên!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            try
+            {
+                us.AddUser(textBox1.Text, textBox2.Text, textBox3.Text, textBox4.Text, (int)cbRole.SelectedValue);
+                this.DialogResult = DialogResult.OK;
+                this.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi khi thêm nhân viên: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }

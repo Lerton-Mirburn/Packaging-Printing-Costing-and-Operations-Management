@@ -1,4 +1,4 @@
-﻿using PPCOM.Models;
+using PPCOM.Models;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -39,9 +39,22 @@ namespace PPCOM
 
         private void btnSave_Click(object sender, EventArgs e)
         {
-            us.UpdateUser(userId, textBox1.Text, textBox2.Text, (int)cbRole.SelectedValue);
-            this.DialogResult = DialogResult.OK;
-            this.Close();
+            if (string.IsNullOrWhiteSpace(textBox1.Text) || string.IsNullOrWhiteSpace(textBox2.Text))
+            {
+                MessageBox.Show("Vui lòng không để trống thông tin!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            try
+            {
+                us.UpdateUser(userId, textBox1.Text, textBox2.Text, (int)cbRole.SelectedValue);
+                this.DialogResult = DialogResult.OK;
+                this.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi khi cập nhật nhân viên: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }

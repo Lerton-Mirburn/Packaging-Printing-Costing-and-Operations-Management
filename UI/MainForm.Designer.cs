@@ -30,6 +30,9 @@ namespace PPCOM
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.panelTop = new System.Windows.Forms.Panel();
+            this.lbUserName = new System.Windows.Forms.Label();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.btnMaximize = new Guna.UI2.WinForms.Guna2ControlBox();
             this.btnExit = new Guna.UI2.WinForms.Guna2ControlBox();
@@ -44,6 +47,7 @@ namespace PPCOM
             this.panelBody = new System.Windows.Forms.Panel();
             this.panelContent = new System.Windows.Forms.Panel();
             this.panelSidebar = new System.Windows.Forms.Panel();
+            this.textBox1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.pnlStorage = new System.Windows.Forms.Panel();
             this.btnReportStorage = new Guna.UI2.WinForms.Guna2Button();
             this.btnInventory = new Guna.UI2.WinForms.Guna2Button();
@@ -62,7 +66,6 @@ namespace PPCOM
             this.btnDebtDetail = new Guna.UI2.WinForms.Guna2Button();
             this.btnPurchaseDetail = new Guna.UI2.WinForms.Guna2Button();
             this.PictureMenu = new System.Windows.Forms.PictureBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.btnEmployee = new Guna.UI2.WinForms.Guna2Button();
             this.btnReport = new Guna.UI2.WinForms.Guna2Button();
             this.btnCalculate = new Guna.UI2.WinForms.Guna2Button();
@@ -72,6 +75,8 @@ namespace PPCOM
             this.btnProduce = new Guna.UI2.WinForms.Guna2Button();
             this.btnStorage = new Guna.UI2.WinForms.Guna2Button();
             this.panelTop.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -88,6 +93,9 @@ namespace PPCOM
             // 
             // panelTop
             // 
+            this.panelTop.Controls.Add(this.lbUserName);
+            this.panelTop.Controls.Add(this.pictureBox3);
+            this.panelTop.Controls.Add(this.pictureBox2);
             this.panelTop.Controls.Add(this.pictureBox5);
             this.panelTop.Controls.Add(this.btnMaximize);
             this.panelTop.Controls.Add(this.btnExit);
@@ -103,11 +111,40 @@ namespace PPCOM
             this.panelTop.Size = new System.Drawing.Size(1579, 86);
             this.panelTop.TabIndex = 38;
             // 
+            // lbUserName
+            // 
+            this.lbUserName.AutoSize = true;
+            this.lbUserName.Location = new System.Drawing.Point(1316, 40);
+            this.lbUserName.Name = "lbUserName";
+            this.lbUserName.Size = new System.Drawing.Size(105, 16);
+            this.lbUserName.TabIndex = 32;
+            this.lbUserName.Text = "Tên Người Dùng";
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(1425, 15);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(55, 54);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 31;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(160, 15);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(46, 54);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 30;
+            this.pictureBox2.TabStop = false;
+            // 
             // pictureBox5
             // 
             this.pictureBox5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(1298, 27);
+            this.pictureBox5.Location = new System.Drawing.Point(1136, 27);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(52, 32);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -151,7 +188,7 @@ namespace PPCOM
             // 
             this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(1356, 40);
+            this.label5.Location = new System.Drawing.Point(1194, 40);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(126, 16);
             this.label5.TabIndex = 25;
@@ -160,7 +197,7 @@ namespace PPCOM
             // pictureBox4
             // 
             this.pictureBox4.Image = global::PPCOM.Properties.Resources.Group_12;
-            this.pictureBox4.Location = new System.Drawing.Point(151, 26);
+            this.pictureBox4.Location = new System.Drawing.Point(137, 27);
             this.pictureBox4.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(16, 30);
@@ -169,6 +206,7 @@ namespace PPCOM
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox1.Image = global::PPCOM.Properties.Resources.Group_11;
             this.pictureBox1.Location = new System.Drawing.Point(103, 26);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
@@ -176,7 +214,6 @@ namespace PPCOM
             this.pictureBox1.Size = new System.Drawing.Size(16, 30);
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // pictureLogo
@@ -247,12 +284,12 @@ namespace PPCOM
             // 
             this.panelSidebar.AutoScroll = true;
             this.panelSidebar.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.panelSidebar.Controls.Add(this.textBox1);
             this.panelSidebar.Controls.Add(this.pnlStorage);
             this.panelSidebar.Controls.Add(this.pnlPurchase);
             this.panelSidebar.Controls.Add(this.pnlDebt);
             this.panelSidebar.Controls.Add(this.pnlReport);
             this.panelSidebar.Controls.Add(this.PictureMenu);
-            this.panelSidebar.Controls.Add(this.textBox1);
             this.panelSidebar.Controls.Add(this.btnEmployee);
             this.panelSidebar.Controls.Add(this.btnReport);
             this.panelSidebar.Controls.Add(this.btnCalculate);
@@ -268,6 +305,27 @@ namespace PPCOM
             this.panelSidebar.Size = new System.Drawing.Size(323, 698);
             this.panelSidebar.TabIndex = 33;
             this.panelSidebar.Paint += new System.Windows.Forms.PaintEventHandler(this.panelSidebar_Paint);
+            // 
+            // textBox1
+            // 
+            this.textBox1.BorderRadius = 10;
+            this.textBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.textBox1.DefaultText = "";
+            this.textBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.textBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.textBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.textBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.textBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.textBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.textBox1.IconRight = ((System.Drawing.Image)(resources.GetObject("textBox1.IconRight")));
+            this.textBox1.Location = new System.Drawing.Point(37, 57);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.PlaceholderText = "";
+            this.textBox1.SelectedText = "";
+            this.textBox1.Size = new System.Drawing.Size(252, 37);
+            this.textBox1.TabIndex = 31;
             // 
             // pnlStorage
             // 
@@ -581,6 +639,7 @@ namespace PPCOM
             // 
             // PictureMenu
             // 
+            this.PictureMenu.Cursor = System.Windows.Forms.Cursors.Hand;
             this.PictureMenu.Image = global::PPCOM.Properties.Resources.zoom;
             this.PictureMenu.Location = new System.Drawing.Point(261, 8);
             this.PictureMenu.Margin = new System.Windows.Forms.Padding(4);
@@ -588,18 +647,7 @@ namespace PPCOM
             this.PictureMenu.Size = new System.Drawing.Size(28, 26);
             this.PictureMenu.TabIndex = 1;
             this.PictureMenu.TabStop = false;
-            this.PictureMenu.Cursor = System.Windows.Forms.Cursors.Hand;
             this.PictureMenu.Click += new System.EventHandler(this.PictureMenu_Click);
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(21, 68);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(268, 22);
-            this.textBox1.TabIndex = 26;
-            this.textBox1.Text = "Tìm kiếm";
-            this.textBox1.Enter += new System.EventHandler(this.textBox1_Enter);
             // 
             // btnEmployee
             // 
@@ -771,6 +819,8 @@ namespace PPCOM
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.panelTop.ResumeLayout(false);
             this.panelTop.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -779,7 +829,6 @@ namespace PPCOM
             this.panelBottom.PerformLayout();
             this.panelBody.ResumeLayout(false);
             this.panelSidebar.ResumeLayout(false);
-            this.panelSidebar.PerformLayout();
             this.pnlStorage.ResumeLayout(false);
             this.pnlPurchase.ResumeLayout(false);
             this.pnlDebt.ResumeLayout(false);
@@ -795,7 +844,6 @@ namespace PPCOM
         private System.Windows.Forms.Panel panelBody;
         private System.Windows.Forms.Panel panelContent;
         private System.Windows.Forms.Panel panelSidebar;
-        private System.Windows.Forms.TextBox textBox1;
         private Guna.UI2.WinForms.Guna2Button btnEmployee;
         private Guna.UI2.WinForms.Guna2Button btnReport;
         private Guna.UI2.WinForms.Guna2Button btnCalculate;
@@ -832,5 +880,9 @@ namespace PPCOM
         private Guna.UI2.WinForms.Guna2ControlBox btnExit;
         private Guna.UI2.WinForms.Guna2ControlBox btnMinimize;
         private System.Windows.Forms.Label label5;
+        private Guna.UI2.WinForms.Guna2TextBox textBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Label lbUserName;
     }
 }
